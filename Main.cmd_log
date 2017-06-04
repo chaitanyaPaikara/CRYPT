@@ -1,0 +1,24 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Main_drc.vhf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sch} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Main_drc.vhf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sch} 
+sch2sym -intstyle ise -family spartan3e -refsym Main {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sym} 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.syr" 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Main_drc.vhf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sch} 
+sch2sym -intstyle ise -family spartan3e -refsym Main {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym Main {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sym} 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-5 "Main.ngc" Main.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -t 1 Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Main_drc.vhf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sch} 
+sch2sym -intstyle ise -family spartan3e -w -refsym Main {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sym} 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-5 "Main.ngc" Main.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -t 1 Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-5 "Main.ngc" Main.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -t 1 Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf 

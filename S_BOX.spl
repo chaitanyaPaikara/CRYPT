@@ -1,0 +1,10 @@
+[Inputs]
+en
+CLK
+=sel[7:0]=
+[Outputs]
+=data[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel S_BOX
+

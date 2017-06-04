@@ -1,0 +1,9 @@
+V3 6
+FL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.vhf" 2017/05/26.18:55:16 P.28xd
+EN work/Main 1496048728 \
+      FL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.vhf" \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182 LB UNISIM \
+      PH unisim/VCOMPONENTS 1341906184
+AR work/Main/BEHAVIORAL 1496048729 \
+      FL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.vhf" \
+      EN work/Main 1496048728 CP S_BOX CP XOR_8

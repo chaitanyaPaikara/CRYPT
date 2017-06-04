@@ -1,0 +1,28 @@
+Command line:
+   Keyscheduler_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57969
+
+Sun Jun 04 14:05:15 2017
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 836.669 Meg
+
+ Total Signals          : 18
+ Total Nets             : 38
+ Total Signal Drivers   : 9
+ Total Blocks           : 5
+ Total Primitive Blocks : 2
+ Total Processes        : 14
+ Total Traceable Variables  : 27
+ Total Scalar Nets and Variables : 294
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 1151.24 Meg
+
+Sun Jun 04 14:06:04 2017
+

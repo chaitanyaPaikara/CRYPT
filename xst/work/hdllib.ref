@@ -1,0 +1,6 @@
+MO xor_8 NULL XOR_8.v vlg60/xor__8.bin 1496558380
+AR main behavioral "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.vhf" sub00/vhpl01 1496048729
+MO Key_scheduler NULL Key_scheduler.v vlg5F/_key__scheduler.bin 1496566882
+MO S_BOX NULL S-BOX.v vlg5B/_s___b_o_x.bin 1496558702
+EN main NULL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.vhf" sub00/vhpl00 1496048728
+MO XOR_8 NULL XOR_8.v vlg00/_x_o_r__8.bin 1495804710

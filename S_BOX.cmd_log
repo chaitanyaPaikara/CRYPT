@@ -1,0 +1,18 @@
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S-BOX.v} -lang verilog -prj CRYPTO -o S_BOX.spl -module S_BOX -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e S_BOX.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S_BOX.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S-BOX.v} -lang verilog -prj CRYPTO -o S_BOX.spl -module S_BOX -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e S_BOX.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S_BOX.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S-BOX.v} -lang verilog -prj CRYPTO -o S_BOX.spl -module S_BOX -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w S_BOX.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S_BOX.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S-BOX.v} -lang verilog -prj CRYPTO -o S_BOX.spl -module S_BOX -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w S_BOX.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S_BOX.sym} 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S_BOX.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S_BOX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-5 "S_BOX.ngc" S_BOX.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o S_BOX_map.ncd S_BOX.ngd S_BOX.pcf 
+par -w -intstyle ise -ol high -t 1 S_BOX_map.ncd S_BOX.ncd S_BOX.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S_BOX.twx S_BOX.ncd -o S_BOX.twr S_BOX.pcf 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S_BOX.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S_BOX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-5 "S_BOX.ngc" S_BOX.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o S_BOX_map.ncd S_BOX.ngd S_BOX.pcf 
+par -w -intstyle ise -ol high -t 1 S_BOX_map.ncd S_BOX.ncd S_BOX.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S_BOX.twx S_BOX.ncd -o S_BOX.twr S_BOX.pcf 

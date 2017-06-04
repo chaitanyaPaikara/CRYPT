@@ -1,0 +1,3 @@
+verilog work "XOR_8.v"
+verilog work "S-BOX.v"
+vhdl work "Main.vhf"
