@@ -1,0 +1,3 @@
+verilog isim_temp "Key_schedule_decrypt.v"
+verilog isim_temp "KEY_DECRYPT_TB.v"
+verilog isim_temp "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

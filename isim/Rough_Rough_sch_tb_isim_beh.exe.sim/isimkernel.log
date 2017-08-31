@@ -1,0 +1,28 @@
+Command line:
+   Rough_Rough_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53607
+
+Fri Aug 25 20:22:33 2017
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 841.036 Meg
+
+ Total Signals          : 290
+ Total Nets             : 1186
+ Total Signal Drivers   : 293
+ Total Blocks           : 57
+ Total Primitive Blocks : 51
+ Total Processes        : 319
+ Total Traceable Variables  : 60
+ Total Scalar Nets and Variables : 2064
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 683.749 Meg
+
+Fri Aug 25 20:26:36 2017
+

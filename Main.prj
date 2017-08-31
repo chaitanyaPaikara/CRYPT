@@ -1,3 +1,5 @@
 verilog work "XOR_8.v"
 verilog work "S-BOX.v"
+verilog work "Key_scheduler.v"
 vhdl work "Main.vhf"
+vhdl work "Rough.vhf"

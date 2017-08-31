@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_Rough_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Rough_Rough_sch_tb" />
+            <top_module name="glbl" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/Rough_Rough_sch_tb/OUT_4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">OUT_4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_4[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Rough_Rough_sch_tb/OUT_3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">OUT_3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_3[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Rough_Rough_sch_tb/OUT_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">OUT_2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_2[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Rough_Rough_sch_tb/OUT_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">OUT_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_1[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Rough_Rough_sch_tb/K_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">K_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">K_1[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Rough_Rough_sch_tb/K_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">K_2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">K_2[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Rough_Rough_sch_tb/K_3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">K_3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">K_3[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Rough_Rough_sch_tb/EN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EN</obj_property>
+      <obj_property name="ObjectShortName">EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Rough_Rough_sch_tb/CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+</wave_config>

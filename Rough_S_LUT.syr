@@ -1,0 +1,705 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: Rough_S_LUT.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Rough_S_LUT.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Rough_S_LUT"
+Output Format                      : NGC
+Target Device                      : xc5vlx50-2-ff324
+
+---- Source Options
+Top Module Name                    : Rough_S_LUT
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Off
+Reduce Control Sets                : Off
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "XOR_8.v" in library work
+Compiling verilog file "S_BOX_LUT_2.v" in library work
+Module <xor_8> compiled
+Compiling verilog file "S_BOX_LUT.v" in library work
+Module <S_BOX_LUT_2> compiled
+Compiling verilog file "Pres_2.v" in library work
+Module <S_BOX_LUT> compiled
+Compiling verilog file "MUX_BYTE.v" in library work
+Module <Pres_2> compiled
+Compiling verilog file "Key_scheduler.v" in library work
+Module <MUX_BYTE> compiled
+Compiling verilog file "COUNTER.v" in library work
+Module <Key_scheduler> compiled
+Module <COUNTER> compiled
+No errors in compilation
+Analysis of file <"Rough_S_LUT.prj"> succeeded.
+ 
+Compiling vhdl file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough.vhf" in Library work.
+Architecture behavioral of Entity fd8ce_mxilinx_rough is up to date.
+Architecture behavioral of Entity main_muser_rough is up to date.
+Architecture behavioral of Entity rough is up to date.
+Compiling vhdl file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_S_LUT.vhf" in Library work.
+Entity <FD8CE_HXILINX_Rough_S_LUT> compiled.
+Entity <FD8CE_HXILINX_Rough_S_LUT> (Architecture <Behavioral>) compiled.
+Entity <Main_2_MUSER_Rough_S_LUT> compiled.
+Entity <Main_2_MUSER_Rough_S_LUT> (Architecture <BEHAVIORAL>) compiled.
+Entity <main_muser_rough_s_lut> compiled.
+Entity <main_muser_rough_s_lut> (Architecture <behavioral>) compiled.
+Entity <rough_s_lut> compiled.
+Entity <rough_s_lut> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.vhf" in Library work.
+Entity <FD8CE_HXILINX_Main> compiled.
+Entity <FD8CE_HXILINX_Main> (Architecture <Behavioral>) compiled.
+Entity <main> compiled.
+Entity <main> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main_2.vhf" in Library work.
+Entity <FD8CE_HXILINX_Main_2> compiled.
+Entity <FD8CE_HXILINX_Main_2> (Architecture <Behavioral>) compiled.
+Entity <Main_2> compiled.
+Entity <Main_2> (Architecture <BEHAVIORAL>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Rough_S_LUT> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for module <COUNTER> in library <work>.
+
+Analyzing hierarchy for entity <Main_MUSER_Rough_S_LUT> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for module <Key_scheduler> in library <work>.
+
+Analyzing hierarchy for entity <Main_2_MUSER_Rough_S_LUT> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for module <MUX_BYTE> in library <work>.
+
+Analyzing hierarchy for module <Pres_2> in library <work>.
+
+Analyzing hierarchy for module <xor_8> in library <work>.
+
+Analyzing hierarchy for entity <FD8CE_HXILINX_Rough_S_LUT> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for module <S_BOX_LUT> in library <work>.
+
+Analyzing hierarchy for module <S_BOX_LUT_2> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Rough_S_LUT> in library <work> (Architecture <behavioral>).
+Entity <Rough_S_LUT> analyzed. Unit <Rough_S_LUT> generated.
+
+Analyzing module <COUNTER> in library <work>.
+Module <COUNTER> is correct for synthesis.
+ 
+Analyzing Entity <Main_MUSER_Rough_S_LUT> in library <work> (Architecture <behavioral>).
+    Set user-defined property "HU_SET =  XLXI_14_4" for instance <XLXI_14> in unit <Main_MUSER_Rough_S_LUT>.
+    Set user-defined property "HU_SET =  XLXI_15_5" for instance <XLXI_15> in unit <Main_MUSER_Rough_S_LUT>.
+    Set user-defined property "HU_SET =  XLXI_16_6" for instance <XLXI_16> in unit <Main_MUSER_Rough_S_LUT>.
+    Set user-defined property "HU_SET =  XLXI_17_7" for instance <XLXI_17> in unit <Main_MUSER_Rough_S_LUT>.
+Entity <Main_MUSER_Rough_S_LUT> analyzed. Unit <Main_MUSER_Rough_S_LUT> generated.
+
+Analyzing module <xor_8> in library <work>.
+Module <xor_8> is correct for synthesis.
+ 
+Analyzing Entity <FD8CE_HXILINX_Rough_S_LUT> in library <work> (Architecture <Behavioral>).
+Entity <FD8CE_HXILINX_Rough_S_LUT> analyzed. Unit <FD8CE_HXILINX_Rough_S_LUT> generated.
+
+Analyzing module <S_BOX_LUT> in library <work>.
+Module <S_BOX_LUT> is correct for synthesis.
+ 
+Analyzing module <Key_scheduler> in library <work>.
+	Calling function <scheduling>.
+	Calling function <key_arr>.
+	Calling function <scheduling>.
+	Calling function <key_arr>.
+	Calling function <scheduling>.
+	Calling function <key_arr>.
+Module <Key_scheduler> is correct for synthesis.
+ 
+Analyzing Entity <Main_2_MUSER_Rough_S_LUT> in library <work> (Architecture <BEHAVIORAL>).
+    Set user-defined property "HU_SET =  XLXI_8_0" for instance <XLXI_8> in unit <Main_2_MUSER_Rough_S_LUT>.
+    Set user-defined property "HU_SET =  XLXI_9_1" for instance <XLXI_9> in unit <Main_2_MUSER_Rough_S_LUT>.
+    Set user-defined property "HU_SET =  XLXI_10_2" for instance <XLXI_10> in unit <Main_2_MUSER_Rough_S_LUT>.
+    Set user-defined property "HU_SET =  XLXI_11_3" for instance <XLXI_11> in unit <Main_2_MUSER_Rough_S_LUT>.
+Entity <Main_2_MUSER_Rough_S_LUT> analyzed. Unit <Main_2_MUSER_Rough_S_LUT> generated.
+
+Analyzing module <S_BOX_LUT_2> in library <work>.
+Module <S_BOX_LUT_2> is correct for synthesis.
+ 
+Analyzing module <MUX_BYTE> in library <work>.
+Module <MUX_BYTE> is correct for synthesis.
+ 
+Analyzing module <Pres_2> in library <work>.
+Module <Pres_2> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <COUNTER>.
+    Related source file is "COUNTER.v".
+    Found 6-bit up counter for signal <cnt>.
+    Found 1-bit register for signal <en_w>.
+    Found 1-bit register for signal <flag>.
+    Found 1-bit register for signal <GLOBAL_EN_O>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   3 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <COUNTER> synthesized.
+
+
+Synthesizing Unit <Key_scheduler>.
+    Related source file is "Key_scheduler.v".
+WARNING:Xst:653 - Signal <key> is used but never assigned. This sourceless signal will be automatically connected to value 10100001101100101111001111100100110010011101100010101011110010111010110111101111111011010001010010010100000100100110011101100010.
+    Found 16x8-bit ROM for signal <scheduling/1/key_arr/1/key_arr>.
+    Found 16x8-bit ROM for signal <scheduling/2/key_arr/2/key_arr>.
+    Found 16x8-bit ROM for signal <scheduling/3/key_arr/3/key_arr>.
+    Found 8-bit register for signal <K_1>.
+    Found 8-bit register for signal <K_2>.
+    Found 8-bit register for signal <K_3>.
+    Found 7-bit up counter for signal <cnt>.
+    Found 7x2-bit multiplier for signal <K_1$mult0000>.
+    Found 1-bit xor2 for signal <scheduling$xor0000> created at line 65.
+    Found 1-bit xor2 for signal <scheduling$xor0001> created at line 65.
+    Found 1-bit xor2 for signal <scheduling$xor0002> created at line 65.
+    Found 1-bit xor2 for signal <scheduling$xor0003> created at line 65.
+    Found 1-bit xor2 for signal <scheduling$xor0004> created at line 65.
+    Found 1-bit xor2 for signal <scheduling$xor0005> created at line 65.
+    Found 1-bit xor2 for signal <scheduling$xor0006> created at line 65.
+    Found 1-bit xor2 for signal <scheduling$xor0007> created at line 65.
+    Found 1-bit xor2 for signal <scheduling$xor0008> created at line 65.
+    Found 1-bit xor2 for signal <scheduling$xor0009> created at line 65.
+    Found 1-bit xor2 for signal <scheduling$xor0010> created at line 65.
+    Found 1-bit xor2 for signal <scheduling$xor0011> created at line 65.
+    Found 1-bit xor2 for signal <scheduling$xor0012> created at line 65.
+    Found 1-bit xor2 for signal <scheduling$xor0013> created at line 65.
+    Found 1-bit xor2 for signal <scheduling$xor0014> created at line 65.
+    Found 1-bit xor2 for signal <scheduling$xor0015> created at line 65.
+    Found 1-bit xor2 for signal <scheduling$xor0016> created at line 65.
+    Found 1-bit xor2 for signal <scheduling$xor0017> created at line 65.
+    Found 1-bit xor2 for signal <scheduling$xor0018> created at line 65.
+    Found 1-bit xor2 for signal <scheduling$xor0019> created at line 65.
+    Found 1-bit xor2 for signal <scheduling$xor0020> created at line 65.
+    Summary:
+	inferred   3 ROM(s).
+	inferred   1 Counter(s).
+	inferred  24 D-type flip-flop(s).
+	inferred   5 Adder/Subtractor(s).
+	inferred   1 Multiplier(s).
+Unit <Key_scheduler> synthesized.
+
+
+Synthesizing Unit <MUX_BYTE>.
+    Related source file is "MUX_BYTE.v".
+Unit <MUX_BYTE> synthesized.
+
+
+Synthesizing Unit <Pres_2>.
+    Related source file is "Pres_2.v".
+WARNING:Xst:1780 - Signal <flag> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit register for signal <sel>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <Pres_2> synthesized.
+
+
+Synthesizing Unit <xor_8>.
+    Related source file is "XOR_8.v".
+    Found 8-bit xor2 for signal <OUTput>.
+Unit <xor_8> synthesized.
+
+
+Synthesizing Unit <FD8CE_HXILINX_Rough_S_LUT>.
+    Related source file is "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_S_LUT.vhf".
+    Found 8-bit register for signal <Q>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <FD8CE_HXILINX_Rough_S_LUT> synthesized.
+
+
+Synthesizing Unit <S_BOX_LUT>.
+    Related source file is "S_BOX_LUT.v".
+    Found 256x8-bit ROM for signal <data$mux0000> created at line 30.
+    Found 8-bit register for signal <data>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   8 D-type flip-flop(s).
+Unit <S_BOX_LUT> synthesized.
+
+
+Synthesizing Unit <S_BOX_LUT_2>.
+    Related source file is "S_BOX_LUT_2.v".
+    Found 256x8-bit ROM for signal <data$mux0000> created at line 30.
+    Found 8-bit register for signal <data>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   8 D-type flip-flop(s).
+Unit <S_BOX_LUT_2> synthesized.
+
+
+Synthesizing Unit <Main_MUSER_Rough_S_LUT>.
+    Related source file is "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_S_LUT.vhf".
+Unit <Main_MUSER_Rough_S_LUT> synthesized.
+
+
+Synthesizing Unit <Main_2_MUSER_Rough_S_LUT>.
+    Related source file is "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_S_LUT.vhf".
+Unit <Main_2_MUSER_Rough_S_LUT> synthesized.
+
+
+Synthesizing Unit <Rough_S_LUT>.
+    Related source file is "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_S_LUT.vhf".
+Unit <Rough_S_LUT> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 9
+ 16x8-bit ROM                                          : 3
+ 256x8-bit ROM                                         : 6
+# Multipliers                                          : 1
+ 7x2-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 6
+ 4-bit subtractor                                      : 3
+ 6-bit adder                                           : 1
+ 7-bit subtractor                                      : 2
+# Counters                                             : 2
+ 6-bit up counter                                      : 1
+ 7-bit up counter                                      : 1
+# Registers                                            : 21
+ 1-bit register                                        : 4
+ 8-bit register                                        : 17
+# Xors                                                 : 117
+ 1-bit xor2                                            : 117
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1426 - The value init of the FF/Latch flag hinder the constant cleaning in the block XLXI_5.
+   You should achieve better results by setting this init to 1.
+
+Synthesizing (advanced) Unit <S_BOX_LUT>.
+INFO:Xst:3044 - The ROM <Mrom_data_mux0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <data>.
+INFO:Xst:3225 - The RAM <Mrom_data_mux0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <CLK>           | rise     |
+    |     enA            | connected to signal <en>            | high     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <sel>           |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <data>          |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <S_BOX_LUT> synthesized (advanced).
+
+Synthesizing (advanced) Unit <S_BOX_LUT_2>.
+INFO:Xst:3044 - The ROM <Mrom_data_mux0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <data>.
+INFO:Xst:3225 - The RAM <Mrom_data_mux0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <CLK>           | rise     |
+    |     enA            | connected to signal <en>            | high     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <sel>           |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <data>          |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <S_BOX_LUT_2> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 6
+ 256x8-bit single-port block RAM                       : 6
+# ROMs                                                 : 3
+ 16x8-bit ROM                                          : 3
+# Multipliers                                          : 1
+ 7x2-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 6
+ 4-bit subtractor                                      : 3
+ 6-bit adder                                           : 1
+ 7-bit subtractor                                      : 2
+# Counters                                             : 2
+ 6-bit up counter                                      : 1
+ 7-bit up counter                                      : 1
+# Registers                                            : 92
+ Flip-Flops                                            : 92
+# Xors                                                 : 117
+ 1-bit xor2                                            : 117
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1426 - The value init of the FF/Latch flag hinder the constant cleaning in the block COUNTER.
+   You should achieve better results by setting this init to 1.
+INFO:Xst:2697 - Unit <Main_MUSER_Rough_S_LUT> : the RAMs <XLXI_25/Mrom_data_mux0000>, <XLXI_24/Mrom_data_mux0000> are packed into the single block RAM <XLXI_25/Mrom_data_mux00001>
+INFO:Xst:2697 - Unit <Main_2_MUSER_Rough_S_LUT> : the RAMs <XLXI_28/Mrom_data_mux0000>, <XLXI_27/Mrom_data_mux0000> are packed into the single block RAM <XLXI_28/Mrom_data_mux00001>
+
+Optimizing unit <Rough_S_LUT> ...
+
+Optimizing unit <COUNTER> ...
+
+Optimizing unit <Key_scheduler> ...
+
+Optimizing unit <FD8CE_HXILINX_Rough_S_LUT> ...
+
+Optimizing unit <Main_MUSER_Rough_S_LUT> ...
+
+Optimizing unit <Main_2_MUSER_Rough_S_LUT> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Rough_S_LUT, actual ratio is 0.
+FlipFlop XLXI_15/sel has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 106
+ Flip-Flops                                            : 106
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Rough_S_LUT.ngr
+Top Level Output File Name         : Rough_S_LUT
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 124
+
+Cell Usage :
+# BELS                             : 177
+#      AND2                        : 2
+#      GND                         : 1
+#      INV                         : 5
+#      LUT2                        : 5
+#      LUT3                        : 82
+#      LUT4                        : 24
+#      LUT5                        : 37
+#      LUT6                        : 15
+#      MUXF7                       : 5
+#      VCC                         : 1
+# FlipFlops/Latches                : 106
+#      FD                          : 1
+#      FDCE                        : 64
+#      FDE                         : 37
+#      FDE_1                       : 1
+#      FDR                         : 2
+#      FDSE                        : 1
+# RAMS                             : 4
+#      RAMB18                      : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 123
+#      IBUF                        : 33
+#      OBUF                        : 90
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 5vlx50ff324-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             106  out of  28800     0%  
+ Number of Slice LUTs:                  168  out of  28800     0%  
+    Number used as Logic:               168  out of  28800     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    234
+   Number with an unused Flip Flop:     128  out of    234    54%  
+   Number with an unused LUT:            66  out of    234    28%  
+   Number of fully used LUT-FF pairs:    40  out of    234    17%  
+   Number of unique control sets:        14
+
+IO Utilization: 
+ Number of IOs:                         124
+ Number of bonded IOBs:                 124  out of    220    56%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                2  out of     48     4%  
+    Number using Block RAM only:          2
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 110   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+-------------------------+-------+
+Control Signal                     | Buffer(FF name)         | Load  |
+-----------------------------------+-------------------------+-------+
+N0(XST_GND:G)                      | NONE(XLXI_6/XLXI_14/Q_0)| 64    |
+-----------------------------------+-------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 4.919ns (Maximum Frequency: 203.295MHz)
+   Minimum input arrival time before clock: 2.303ns
+   Maximum output required time after clock: 3.848ns
+   Maximum combinational path delay: 4.047ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 4.919ns (frequency: 203.295MHz)
+  Total number of paths / destination ports: 996 / 261
+-------------------------------------------------------------------------
+Delay:               2.459ns (Levels of Logic = 3)
+  Source:            XLXI_15/sel_1 (FF)
+  Destination:       XLXI_8/XLXI_8/Q_0 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK falling
+
+  Data Path: XLXI_15/sel_1 to XLXI_8/XLXI_8/Q_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.396   0.286  XLXI_15/sel_1 (XLXI_15/sel_1)
+     INV:I->O              1   0.212   0.901  XLXI_16 (XLXN_43)
+     AND2:I0->O           35   0.086   0.394  XLXI_17 (XLXN_38)
+     begin scope: 'XLXI_8/XLXI_11'
+     FDCE:CE                   0.185          Q_0
+    ----------------------------------------
+    Total                      2.459ns (0.879ns logic, 1.580ns route)
+                                       (35.7% logic, 64.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 121 / 121
+-------------------------------------------------------------------------
+Offset:              2.303ns (Levels of Logic = 4)
+  Source:            CipherText<16> (PAD)
+  Destination:       XLXI_6/XLXI_14/Q_0 (FF)
+  Destination Clock: CLK falling
+
+  Data Path: CipherText<16> to XLXI_6/XLXI_14/Q_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.694   0.819  CipherText_16_IBUF (CipherText_16_IBUF)
+     LUT5:I0->O            5   0.086   0.618  XLXI_5/OUT_2<0>1 (OUT2_0_OBUF)
+     LUT3:I0->O            1   0.086   0.000  XLXI_8/XLXI_6/Mxor_OUTput<0>_Result1 (XLXI_8/XLXN_39<0>)
+     begin scope: 'XLXI_8/XLXI_8'
+     FDCE:D                   -0.022          Q_0
+    ----------------------------------------
+    Total                      2.303ns (0.866ns logic, 1.437ns route)
+                                       (37.6% logic, 62.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 250 / 90
+-------------------------------------------------------------------------
+Offset:              3.848ns (Levels of Logic = 2)
+  Source:            XLXI_5/flag (FF)
+  Destination:       OUT4<7> (PAD)
+  Source Clock:      CLK falling
+
+  Data Path: XLXI_5/flag to OUT4<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE_1:C->Q           32   0.396   0.927  XLXI_5/flag (XLXI_5/flag)
+     LUT5:I0->O            3   0.086   0.295  XLXI_5/OUT_4<7>1 (OUT4_7_OBUF)
+     OBUF:I->O                 2.144          OUT4_7_OBUF (OUT4<7>)
+    ----------------------------------------
+    Total                      3.848ns (2.626ns logic, 1.222ns route)
+                                       (68.2% logic, 31.8% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Delay:               4.047ns (Levels of Logic = 3)
+  Source:            CipherText<31> (PAD)
+  Destination:       OUT1<7> (PAD)
+
+  Data Path: CipherText<31> to OUT1<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.694   0.819  CipherText_31_IBUF (CipherText_31_IBUF)
+     LUT5:I0->O            5   0.086   0.304  XLXI_5/OUT_1<7>1 (OUT1_7_OBUF)
+     OBUF:I->O                 2.144          OUT1_7_OBUF (OUT1<7>)
+    ----------------------------------------
+    Total                      4.047ns (2.924ns logic, 1.123ns route)
+                                       (72.3% logic, 27.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 11.77 secs
+ 
+--> 
+
+Total memory usage is 385600 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
+

@@ -4,13 +4,13 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.30 secs
+Total CPU time to Xst completion: 0.13 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.30 secs
+Total CPU time to Xst completion: 0.13 secs
  
 --> Reading design: Key_scheduler.prj
 
@@ -109,6 +109,9 @@ Module <Key_scheduler> compiled
 No errors in compilation
 Analysis of file <"Key_scheduler.prj"> succeeded.
  
+Compiling vhdl file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough.vhf" in Library work.
+Architecture behavioral of Entity fd8re_mxilinx_rough is up to date.
+Architecture behavioral of Entity rough is up to date.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
@@ -138,14 +141,13 @@ WARNING:Xst:653 - Signal <key> is used but never assigned. This sourceless signa
     Found 8-bit register for signal <K_0>.
     Found 8-bit register for signal <K_1>.
     Found 8-bit register for signal <K_2>.
-    Found 7-bit up counter for signal <cnt>.
-    Found 1-bit xor2 for signal <K_0$xor0000> created at line 63.
-    Found 1-bit xor2 for signal <K_0$xor0001> created at line 63.
-    Found 1-bit xor2 for signal <K_0$xor0002> created at line 63.
-    Found 1-bit xor2 for signal <K_0$xor0003> created at line 63.
-    Found 1-bit xor2 for signal <K_0$xor0004> created at line 63.
-    Found 1-bit xor2 for signal <K_0$xor0005> created at line 63.
-    Found 1-bit xor2 for signal <K_0$xor0006> created at line 63.
+    Found 5-bit up counter for signal <cnt>.
+    Found 1-bit xor2 for signal <K_0$xor0000> created at line 64.
+    Found 1-bit xor2 for signal <K_0$xor0001> created at line 64.
+    Found 1-bit xor2 for signal <K_0$xor0002> created at line 64.
+    Found 1-bit xor2 for signal <K_0$xor0003> created at line 64.
+    Found 1-bit xor2 for signal <K_0$xor0004> created at line 64.
+    Found 1-bit xor2 for signal <K_0$xor0005> created at line 64.
     Summary:
 	inferred   1 ROM(s).
 	inferred   1 Counter(s).
@@ -163,11 +165,11 @@ Macro Statistics
 # Adders/Subtractors                                   : 1
  4-bit adder                                           : 1
 # Counters                                             : 1
- 7-bit up counter                                      : 1
+ 5-bit up counter                                      : 1
 # Registers                                            : 3
  8-bit register                                        : 3
-# Xors                                                 : 7
- 1-bit xor2                                            : 7
+# Xors                                                 : 6
+ 1-bit xor2                                            : 6
 
 =========================================================================
 
@@ -185,11 +187,11 @@ Macro Statistics
 # Adders/Subtractors                                   : 1
  4-bit adder                                           : 1
 # Counters                                             : 1
- 7-bit up counter                                      : 1
+ 5-bit up counter                                      : 1
 # Registers                                            : 24
  Flip-Flops                                            : 24
-# Xors                                                 : 7
- 1-bit xor2                                            : 7
+# Xors                                                 : 6
+ 1-bit xor2                                            : 6
 
 =========================================================================
 
@@ -209,8 +211,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 31
- Flip-Flops                                            : 31
+# Registers                                            : 29
+ Flip-Flops                                            : 29
 
 =========================================================================
 
@@ -239,15 +241,15 @@ Design Statistics
 # IOs                              : 25
 
 Cell Usage :
-# BELS                             : 19
-#      LUT2                        : 5
-#      LUT3                        : 3
-#      LUT4                        : 6
-#      LUT4_D                      : 1
-#      LUT4_L                      : 3
+# BELS                             : 15
+#      LUT2                        : 2
+#      LUT3                        : 2
+#      LUT3_L                      : 1
+#      LUT4                        : 8
+#      LUT4_L                      : 1
 #      VCC                         : 1
-# FlipFlops/Latches                : 31
-#      FD                          : 29
+# FlipFlops/Latches                : 29
+#      FD                          : 27
 #      FDR                         : 2
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
@@ -260,9 +262,9 @@ Device utilization summary:
 
 Selected Device : 3s250ecp132-5 
 
- Number of Slices:                       19  out of   2448     0%  
- Number of Slice Flip Flops:             31  out of   4896     0%  
- Number of 4 input LUTs:                 18  out of   4896     0%  
+ Number of Slices:                       17  out of   2448     0%  
+ Number of Slice Flip Flops:             29  out of   4896     0%  
+ Number of 4 input LUTs:                 14  out of   4896     0%  
  Number of IOs:                          25
  Number of bonded IOBs:                  25  out of     92    27%  
  Number of GCLKs:                         1  out of     24     4%  
@@ -288,7 +290,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-flag                               | BUFGP                  | 31    |
+flag                               | BUFGP                  | 29    |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -299,7 +301,7 @@ Timing Summary:
 ---------------
 Speed Grade: -5
 
-   Minimum period: 3.278ns (Maximum Frequency: 305.064MHz)
+   Minimum period: 3.077ns (Maximum Frequency: 325.024MHz)
    Minimum input arrival time before clock: No path found
    Maximum output required time after clock: 4.063ns
    Maximum combinational path delay: No path found
@@ -310,26 +312,26 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'flag'
-  Clock period: 3.278ns (frequency: 305.064MHz)
-  Total number of paths / destination ports: 82 / 32
+  Clock period: 3.077ns (frequency: 325.024MHz)
+  Total number of paths / destination ports: 65 / 30
 -------------------------------------------------------------------------
-Delay:               3.278ns (Levels of Logic = 2)
-  Source:            cnt_2 (FF)
-  Destination:       cnt_5 (FF)
+Delay:               3.077ns (Levels of Logic = 2)
+  Source:            cnt_3 (FF)
+  Destination:       K_0_4 (FF)
   Source Clock:      flag rising
   Destination Clock: flag rising
 
-  Data Path: cnt_2 to cnt_5
+  Data Path: cnt_3 to K_0_4
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q              11   0.514   0.862  cnt_2 (cnt_2)
-     LUT4_D:I1->O          2   0.612   0.410  Mcount_cnt_cy<3>11 (Mcount_cnt_cy<3>)
-     LUT3:I2->O            1   0.612   0.000  Mcount_cnt_xor<5>11 (Result<5>)
-     FD:D                      0.268          cnt_5
+     FD:C->Q              10   0.514   0.902  cnt_3 (cnt_3)
+     LUT4_L:I0->LO         1   0.612   0.169  K_0_xor0001_SW1 (N2)
+     LUT2:I1->O            1   0.612   0.000  K_0_xor0001 (K_0_xor0001)
+     FD:D                      0.268          K_0_4
     ----------------------------------------
-    Total                      3.278ns (2.006ns logic, 1.272ns route)
-                                       (61.2% logic, 38.8% route)
+    Total                      3.077ns (2.006ns logic, 1.071ns route)
+                                       (65.2% logic, 34.8% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'flag'
@@ -353,12 +355,12 @@ Offset:              4.063ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 5.60 secs
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.31 secs
  
 --> 
 
-Total memory usage is 286288 kilobytes
+Total memory usage is 303548 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    1 (   0 filtered)

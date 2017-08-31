@@ -1,0 +1,6 @@
+verilog work "XOR_8.v"
+verilog work "S_BOX_LUT.v"
+verilog work "Key_scheduler.v"
+vhdl work "Main.vhf"
+verilog work "COUNTER.v"
+vhdl work "Rough.vhf"

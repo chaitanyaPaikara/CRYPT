@@ -1,0 +1,18 @@
+[Inputs]
+CLK
+GLOBAL_EN
+=IN_1[7:0]=
+=IN_2[7:0]=
+=IN_3[7:0]=
+=IN_4[7:0]=
+=CT[31:0]=
+[Outputs]
+en
+=OUT_1[7:0]=
+=OUT_2[7:0]=
+=OUT_3[7:0]=
+=OUT_4[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel COUNTER
+

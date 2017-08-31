@@ -1,0 +1,11 @@
+[Inputs]
+CLK
+en
+[Outputs]
+=K_1[7:0]=
+=K_2[7:0]=
+=K_3[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Key_scheduler
+

@@ -1,0 +1,18 @@
+vhdtdtfi -lang verilog -prj CRYPTO -o "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S_BOX_LUT.vhi" -lib work "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO//S_BOX_OTF.v" -module S_BOX_LUT -template C:/Xilinx/14.2/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S_BOX_OTF.v} -lang verilog -prj CRYPTO -o S_BOX_LUT.spl -module S_BOX_LUT -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w S_BOX_LUT.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S_BOX_LUT.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S_BOX_LUT.v} -lang verilog -prj CRYPTO -o S_BOX_LUT.spl -module S_BOX_LUT -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w S_BOX_LUT.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S_BOX_LUT.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S_BOX_LUT.v} -lang verilog -prj CRYPTO -o S_BOX_LUT.spl -module S_BOX_LUT -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w S_BOX_LUT.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S_BOX_LUT.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S_BOX_LUT.v} -lang verilog -prj CRYPTO -o S_BOX_LUT.spl -module S_BOX_LUT -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w S_BOX_LUT.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S_BOX_LUT.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S_BOX_LUT.v} -lang verilog -prj CRYPTO -o S_BOX_LUT.spl -module S_BOX_LUT -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w S_BOX_LUT.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S_BOX_LUT.sym} 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S_BOX_LUT.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S_BOX_LUT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-5 "S_BOX_LUT.ngc" S_BOX_LUT.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o S_BOX_LUT_map.ncd S_BOX_LUT.ngd S_BOX_LUT.pcf 
+par -w -intstyle ise -ol high -t 1 S_BOX_LUT_map.ncd S_BOX_LUT.ncd S_BOX_LUT.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S_BOX_LUT.twx S_BOX_LUT.ncd -o S_BOX_LUT.twr S_BOX_LUT.pcf 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S_BOX_LUT.v} -lang verilog -prj CRYPTO -o S_BOX_LUT.spl -module S_BOX_LUT -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w S_BOX_LUT.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S_BOX_LUT.sym} 

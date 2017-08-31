@@ -1,0 +1,7 @@
+verilog work "XOR_8.v"
+verilog work "S-BOX.v"
+verilog work "Key_scheduler.v"
+vhdl work "Main.vhf"
+verilog work "M.v"
+vhdl work "Rough.vhf"
+verilog work "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

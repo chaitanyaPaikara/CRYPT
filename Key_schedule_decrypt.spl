@@ -1,0 +1,11 @@
+[Inputs]
+CLK
+en
+[Outputs]
+=K_94[7:0]=
+=K_95[7:0]=
+=K_96[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Key_schedule_decrypt
+

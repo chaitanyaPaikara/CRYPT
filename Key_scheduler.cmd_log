@@ -38,3 +38,50 @@ ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-5 "Key_schedu
 map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Key_scheduler_map.ncd Key_scheduler.ngd Key_scheduler.pcf 
 par -w -intstyle ise -ol high -t 1 Key_scheduler_map.ncd Key_scheduler.ncd Key_scheduler.pcf 
 trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Key_scheduler.twx Key_scheduler.ncd -o Key_scheduler.twr Key_scheduler.pcf 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.syr" 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.syr" 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-5 "Key_scheduler.ngc" Key_scheduler.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Key_scheduler_map.ncd Key_scheduler.ngd Key_scheduler.pcf 
+par -w -intstyle ise -ol high -t 1 Key_scheduler_map.ncd Key_scheduler.ncd Key_scheduler.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Key_scheduler.twx Key_scheduler.ncd -o Key_scheduler.twr Key_scheduler.pcf 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.v} -lang verilog -prj CRYPTO -o Key_scheduler.spl -module Key_scheduler -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w Key_scheduler.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.sym} 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-5 "Key_scheduler.ngc" Key_scheduler.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Key_scheduler_map.ncd Key_scheduler.ngd Key_scheduler.pcf 
+par -w -intstyle ise -ol high -t 1 Key_scheduler_map.ncd Key_scheduler.ncd Key_scheduler.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Key_scheduler.twx Key_scheduler.ncd -o Key_scheduler.twr Key_scheduler.pcf 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-5 "Key_scheduler.ngc" Key_scheduler.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Key_scheduler_map.ncd Key_scheduler.ngd Key_scheduler.pcf 
+par -w -intstyle ise -ol high -t 1 Key_scheduler_map.ncd Key_scheduler.ncd Key_scheduler.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Key_scheduler.twx Key_scheduler.ncd -o Key_scheduler.twr Key_scheduler.pcf 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.v} -lang verilog -prj CRYPTO -o Key_scheduler.spl -module Key_scheduler -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w Key_scheduler.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.v} -lang verilog -prj CRYPTO -o Key_scheduler.spl -module Key_scheduler -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w Key_scheduler.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.v} -lang verilog -prj CRYPTO -o Key_scheduler.spl -module Key_scheduler -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w Key_scheduler.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.v} -lang verilog -prj CRYPTO -o Key_scheduler.spl -module Key_scheduler -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w Key_scheduler.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.v} -lang verilog -prj CRYPTO -o Key_scheduler.spl -module Key_scheduler -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w Key_scheduler.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.v} -lang verilog -prj CRYPTO -o Key_scheduler.spl -module Key_scheduler -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w Key_scheduler.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.v} -lang verilog -prj CRYPTO -o Key_scheduler.spl -module Key_scheduler -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w Key_scheduler.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.v} -lang verilog -prj CRYPTO -o Key_scheduler.spl -module Key_scheduler -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w Key_scheduler.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.v} -lang verilog -prj CRYPTO -o Key_scheduler.spl -module Key_scheduler -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w Key_scheduler.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.v} -lang verilog -prj CRYPTO -o Key_scheduler.spl -module Key_scheduler -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w Key_scheduler.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.v} -lang verilog -prj CRYPTO -o Key_scheduler.spl -module Key_scheduler -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w Key_scheduler.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.v} -lang verilog -prj CRYPTO -o Key_scheduler.spl -module Key_scheduler -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w Key_scheduler.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.v} -lang verilog -prj CRYPTO -o Key_scheduler.spl -module Key_scheduler -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w Key_scheduler.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.v} -lang verilog -prj CRYPTO -o Key_scheduler.spl -module Key_scheduler -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w Key_scheduler.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.sym} 

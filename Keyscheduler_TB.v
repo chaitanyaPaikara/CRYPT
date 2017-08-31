@@ -25,25 +25,26 @@
 module Keyscheduler_TB;
 
 	// Outputs
-	wire [7:0] K_0;
 	wire [7:0] K_1;
 	wire [7:0] K_2;
+	wire [7:0] K_3;
 
 	// Bidirs
-	wire flag;
+	reg CLK;
+	reg en;
 
 	// Instantiate the Unit Under Test (UUT)
 	Key_scheduler uut (
-		.flag(flag), 
-		.K_0(K_0), 
+		.CLK(CLK), 
 		.K_1(K_1), 
-		.K_2(K_2)
+		.K_2(K_2), 
+		.K_3(K_3),
+		.en(en)
 	);
-	reg temp;
-	assign flag = temp ? 1'b1:1'bZ;
 	initial begin
 		// Initialize Inputs
-		temp = 0;
+		CLK = 0;
+		en = 1;
 		// Wait 100 ns for global reset to finish
 		#100;
         
@@ -51,7 +52,7 @@ module Keyscheduler_TB;
 
 	end
    always begin
-		#1000 temp = ~temp;
+		#10 CLK = ~CLK;
 	end
 endmodule
 
