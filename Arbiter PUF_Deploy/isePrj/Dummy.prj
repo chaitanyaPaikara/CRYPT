@@ -1,0 +1,6 @@
+verilog work "../src/verilog/picoBlaze6/uart_tx6.v"
+verilog work "../src/verilog/picoBlaze6/uart_rx6.v"
+verilog work "../src/verilog/picoBlaze6/program.v"
+verilog work "../src/verilog/picoBlaze6/kcpsm6.v"
+verilog work "../src/verilog/picoBlaze6/puf_controller_6.v"
+verilog work "Dummy.v"

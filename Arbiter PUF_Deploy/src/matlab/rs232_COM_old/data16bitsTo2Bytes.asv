@@ -1,0 +1,13 @@
+
+function [B2 B1] = data16bitsTo2Bytes(data)
+    
+    k = size(data,1);
+    B2 = zero(k,1);
+    B1 = zero(k,1);
+    B1 = 
+    for i = 1:size(data,1)
+        b1 = bitget(data(i),8:-1:1);
+        b2 = bitget(data(i),16:-1:9);
+        
+    end
+end

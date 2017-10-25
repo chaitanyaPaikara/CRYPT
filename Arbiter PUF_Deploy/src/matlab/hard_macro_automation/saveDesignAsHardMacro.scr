@@ -1,0 +1,25 @@
+# Matlab generated fpga_editor script
+
+# Change the edit mode
+setattr main edit_mode read-write
+
+# Select all IO and Clock buffer
+unselect -all
+select comp "cT<*>"
+select comp "cB<*>"
+select -k comp 'clk'
+select -k comp 'clk_BUFGP/BUFG'
+select -k comp 'tigSignal'
+select -k comp 'vcc'
+select -k comp 'respBit'
+select -k comp 'respReady'
+
+# Unplace and delete all selected components
+'unplace'
+delete
+unselect -all
+
+# Save the design as macro
+save -w hm apufClassic_64_hm.nmc
+quit!
+quit

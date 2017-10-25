@@ -1,0 +1,18 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.20131013
+#Current Working Directory:
+#:D   C:\Xilinx\14.7\ISE_DS\ISE
+#Date/Time:
+#:T   Thu Dec 25 03:15:39 2014
+#------------------------------
+	#Reading F:\RESEARCH\vlsid_2015\APUF_Cliassic\MacroDesign\src\matlab\hard_macro_automation\apufClassic_64_hm.nmc...
+	#   "apufClassic_64_hm" is an NCD, version 3.2, device xc7a100t, package csg324, speed -3
+	#Design creation date: 2014.12.24.21.45.42
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+select -k comp 'tigReg'
+	#2
+post open

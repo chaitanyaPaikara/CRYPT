@@ -1,0 +1,692 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.20131013
+#Current Working Directory:
+#:D   F:\RESEARCH\vlsid_2015\APUF_Cliassic\MacroDesign\src\matlab\hard_macro_automation
+#Date/Time:
+#:T   Thu Dec 25 03:12:31 2014
+#------------------------------
+	#Reading apufClassic.ncd...
+	#Loading device for application Rf_Device from file '7a100t.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+	#   "apufClassic" is an NCD, version 3.2, device xc7a100t, package csg324, speed -3
+	#Design creation date: 2014.12.24.21.38.56
+	#WARNING:FPGAEditor:589 - Constraint file not found, or cannot be read.
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+playback getExternalPinName.scr
+	##Matlab generated fpga_editor script
+	#
+	#getattr net "clk_BUFGP" pin_list 
+	#Building the delay mediator...
+	#Hint: to automatically load delays when design is loaded, setattr main auto_load_delays true
+	#pin_list = 
+	#   Comp Pin Name     Comp Pin Type  Site Pin Name     Delays (ns)  
+	#   clk_BUFGP/BUFG.O  BLOCK_OUTPUT   BUFGCTRL_X0Y31.O  Driver
+	#   tigReg.CLK        BLOCK_INPUT    SLICE_X32Y1.CLK    1.376ns
+	#
+	#getattr net "tigSignal_IBUF" pin_list 
+	#pin_list = 
+	#   Comp Pin Name     Comp Pin Type  Site Pin Name   Delays (ns)  
+	#   tigSignal.I       BLOCK_OUTPUT   T18.I           Driver
+	#   tigSignal_inv.B6  BLOCK_INPUT    SLICE_X33Y1.B6   2.656ns
+	#
+	#getattr net "vcc_IBUF" pin_list 
+	#pin_list = 
+	#   Comp Pin Name  Comp Pin Type  Site Pin Name   Delays (ns)  
+	#   vcc.I          BLOCK_OUTPUT   N14.I           Driver
+	#   tigReg.AX      BLOCK_INPUT    SLICE_X32Y1.AX   2.680ns
+	#getattr net "cT_0_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name            Comp Pin Type  Site Pin Name   Delays (ns)  
+	#   cT<0>.I                  BLOCK_OUTPUT   P14.I           Driver
+	#   SWITCH_CHAIN/netB<1>.A4  BLOCK_INPUT    SLICE_X32Y2.A2   3.667ns
+	#getattr net "cB_0_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name            Comp Pin Type  Site Pin Name   Delays (ns)  
+	#   cB<0>.I                  BLOCK_OUTPUT   G13.I           Driver
+	#   SWITCH_CHAIN/netB<1>.B4  BLOCK_INPUT    SLICE_X32Y2.B1   4.027ns
+	#getattr net "cT_1_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name            Comp Pin Type  Site Pin Name   Delays (ns)  
+	#   cT<1>.I                  BLOCK_OUTPUT   N17.I           Driver
+	#   SWITCH_CHAIN/netB<2>.A4  BLOCK_INPUT    SLICE_X32Y3.A6   3.074ns
+	#getattr net "cB_1_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name            Comp Pin Type  Site Pin Name   Delays (ns)  
+	#   cB<1>.I                  BLOCK_OUTPUT   D14.I           Driver
+	#   SWITCH_CHAIN/netB<2>.B4  BLOCK_INPUT    SLICE_X32Y3.B6   3.701ns
+	#getattr net "cT_2_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name            Comp Pin Type  Site Pin Name   Delays (ns)  
+	#   cT<2>.I                  BLOCK_OUTPUT   P18.I           Driver
+	#   SWITCH_CHAIN/netB<3>.A4  BLOCK_INPUT    SLICE_X32Y4.A6   3.155ns
+	#getattr net "cB_2_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name            Comp Pin Type  Site Pin Name   Delays (ns)  
+	#   cB<2>.I                  BLOCK_OUTPUT   C14.I           Driver
+	#   SWITCH_CHAIN/netB<3>.B4  BLOCK_INPUT    SLICE_X32Y4.B1   3.770ns
+	#getattr net "cT_3_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name            Comp Pin Type  Site Pin Name   Delays (ns)  
+	#   cT<3>.I                  BLOCK_OUTPUT   M16.I           Driver
+	#   SWITCH_CHAIN/netB<4>.A4  BLOCK_INPUT    SLICE_X32Y5.A1   3.436ns
+	#getattr net "cB_3_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name            Comp Pin Type  Site Pin Name   Delays (ns)  
+	#   cB<3>.I                  BLOCK_OUTPUT   B13.I           Driver
+	#   SWITCH_CHAIN/netB<4>.B4  BLOCK_INPUT    SLICE_X32Y5.B1   3.673ns
+	#getattr net "cT_4_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name            Comp Pin Type  Site Pin Name   Delays (ns)  
+	#   cT<4>.I                  BLOCK_OUTPUT   M17.I           Driver
+	#   SWITCH_CHAIN/netB<5>.A4  BLOCK_INPUT    SLICE_X32Y6.A1   3.329ns
+	#getattr net "cB_4_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name            Comp Pin Type  Site Pin Name   Delays (ns)  
+	#   cB<4>.I                  BLOCK_OUTPUT   B14.I           Driver
+	#   SWITCH_CHAIN/netB<5>.B4  BLOCK_INPUT    SLICE_X32Y6.B6   3.281ns
+	#getattr net "cT_5_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name            Comp Pin Type  Site Pin Name   Delays (ns)  
+	#   cT<5>.I                  BLOCK_OUTPUT   N15.I           Driver
+	#   SWITCH_CHAIN/netB<6>.A4  BLOCK_INPUT    SLICE_X32Y7.A5   2.813ns
+	#getattr net "cB_5_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name            Comp Pin Type  Site Pin Name   Delays (ns)  
+	#   cB<5>.I                  BLOCK_OUTPUT   C12.I           Driver
+	#   SWITCH_CHAIN/netB<6>.B4  BLOCK_INPUT    SLICE_X32Y7.B1   3.720ns
+	#getattr net "cT_6_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name            Comp Pin Type  Site Pin Name   Delays (ns)  
+	#   cT<6>.I                  BLOCK_OUTPUT   N16.I           Driver
+	#   SWITCH_CHAIN/netB<7>.A4  BLOCK_INPUT    SLICE_X32Y8.A6   3.181ns
+	#getattr net "cB_6_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name            Comp Pin Type  Site Pin Name   Delays (ns)  
+	#   cB<6>.I                  BLOCK_OUTPUT   B12.I           Driver
+	#   SWITCH_CHAIN/netB<7>.B4  BLOCK_INPUT    SLICE_X32Y8.B1   3.623ns
+	#getattr net "cT_7_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name            Comp Pin Type  Site Pin Name   Delays (ns)  
+	#   cT<7>.I                  BLOCK_OUTPUT   P17.I           Driver
+	#   SWITCH_CHAIN/netB<8>.A4  BLOCK_INPUT    SLICE_X32Y9.A6   2.840ns
+	#getattr net "cB_7_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name            Comp Pin Type  Site Pin Name   Delays (ns)  
+	#   cB<7>.I                  BLOCK_OUTPUT   B11.I           Driver
+	#   SWITCH_CHAIN/netB<8>.B4  BLOCK_INPUT    SLICE_X32Y9.B1   3.622ns
+	#getattr net "cT_8_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name            Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<8>.I                  BLOCK_OUTPUT   R17.I            Driver
+	#   SWITCH_CHAIN/netB<9>.A4  BLOCK_INPUT    SLICE_X32Y10.A5   2.661ns
+	#getattr net "cB_8_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name            Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<8>.I                  BLOCK_OUTPUT   A11.I            Driver
+	#   SWITCH_CHAIN/netB<9>.B4  BLOCK_INPUT    SLICE_X32Y10.B1   3.515ns
+	#getattr net "cT_9_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<9>.I                   BLOCK_OUTPUT   P15.I            Driver
+	#   SWITCH_CHAIN/netB<10>.A4  BLOCK_INPUT    SLICE_X32Y11.A1   3.120ns
+	#getattr net "cB_9_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<9>.I                   BLOCK_OUTPUT   F13.I            Driver
+	#   SWITCH_CHAIN/netB<10>.B4  BLOCK_INPUT    SLICE_X32Y11.B1   3.488ns
+	#getattr net "cT_10_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<10>.I                  BLOCK_OUTPUT   R15.I            Driver
+	#   SWITCH_CHAIN/netB<11>.A4  BLOCK_INPUT    SLICE_X32Y12.A6   2.522ns
+	#getattr net "cB_10_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<10>.I                  BLOCK_OUTPUT   F14.I            Driver
+	#   SWITCH_CHAIN/netB<11>.B4  BLOCK_INPUT    SLICE_X32Y12.B6   3.271ns
+	#getattr net "cT_11_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<11>.I                  BLOCK_OUTPUT   T14.I            Driver
+	#   SWITCH_CHAIN/netB<12>.A4  BLOCK_INPUT    SLICE_X32Y13.A5   2.596ns
+	#getattr net "cB_11_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<11>.I                  BLOCK_OUTPUT   D12.I            Driver
+	#   SWITCH_CHAIN/netB<12>.B4  BLOCK_INPUT    SLICE_X32Y13.B1   3.621ns
+	#getattr net "cT_12_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<12>.I                  BLOCK_OUTPUT   T15.I            Driver
+	#   SWITCH_CHAIN/netB<13>.A4  BLOCK_INPUT    SLICE_X32Y14.A1   3.261ns
+	#getattr net "cB_12_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<12>.I                  BLOCK_OUTPUT   D13.I            Driver
+	#   SWITCH_CHAIN/netB<13>.B4  BLOCK_INPUT    SLICE_X32Y14.B1   3.422ns
+	#getattr net "cT_13_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<13>.I                  BLOCK_OUTPUT   R16.I            Driver
+	#   SWITCH_CHAIN/netB<14>.A4  BLOCK_INPUT    SLICE_X32Y15.A6   2.587ns
+	#getattr net "cB_13_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<13>.I                  BLOCK_OUTPUT   B16.I            Driver
+	#   SWITCH_CHAIN/netB<14>.B4  BLOCK_INPUT    SLICE_X32Y15.B6   3.041ns
+	#getattr net "cT_14_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<14>.I                  BLOCK_OUTPUT   T16.I            Driver
+	#   SWITCH_CHAIN/netB<15>.A4  BLOCK_INPUT    SLICE_X32Y16.A5   2.436ns
+	#getattr net "cB_14_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<14>.I                  BLOCK_OUTPUT   B17.I            Driver
+	#   SWITCH_CHAIN/netB<15>.B4  BLOCK_INPUT    SLICE_X32Y16.B6   3.602ns
+	#getattr net "cT_15_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<15>.I                  BLOCK_OUTPUT   V15.I            Driver
+	#   SWITCH_CHAIN/netB<16>.A4  BLOCK_INPUT    SLICE_X32Y17.A1   2.918ns
+	#getattr net "cB_15_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<15>.I                  BLOCK_OUTPUT   A15.I            Driver
+	#   SWITCH_CHAIN/netB<16>.B4  BLOCK_INPUT    SLICE_X32Y17.B1   3.373ns
+	#getattr net "cT_16_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<16>.I                  BLOCK_OUTPUT   V16.I            Driver
+	#   SWITCH_CHAIN/netB<17>.A4  BLOCK_INPUT    SLICE_X32Y18.A6   2.331ns
+	#getattr net "cB_16_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<16>.I                  BLOCK_OUTPUT   A16.I            Driver
+	#   SWITCH_CHAIN/netB<17>.B4  BLOCK_INPUT    SLICE_X32Y18.B5   3.886ns
+	#getattr net "cT_17_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<17>.I                  BLOCK_OUTPUT   U17.I            Driver
+	#   SWITCH_CHAIN/netB<18>.A4  BLOCK_INPUT    SLICE_X32Y19.A1   2.719ns
+	#getattr net "cB_17_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<17>.I                  BLOCK_OUTPUT   A13.I            Driver
+	#   SWITCH_CHAIN/netB<18>.B4  BLOCK_INPUT    SLICE_X32Y19.B1   3.274ns
+	#getattr net "cT_18_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<18>.I                  BLOCK_OUTPUT   U18.I            Driver
+	#   SWITCH_CHAIN/netB<19>.A4  BLOCK_INPUT    SLICE_X32Y20.A1   2.621ns
+	#getattr net "cB_18_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<18>.I                  BLOCK_OUTPUT   A14.I            Driver
+	#   SWITCH_CHAIN/netB<19>.B4  BLOCK_INPUT    SLICE_X32Y20.B1   3.238ns
+	#getattr net "cT_19_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<19>.I                  BLOCK_OUTPUT   U16.I            Driver
+	#   SWITCH_CHAIN/netB<20>.A4  BLOCK_INPUT    SLICE_X32Y21.A3   2.524ns
+	#getattr net "cB_19_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<19>.I                  BLOCK_OUTPUT   B18.I            Driver
+	#   SWITCH_CHAIN/netB<20>.B4  BLOCK_INPUT    SLICE_X32Y21.B1   3.213ns
+	#getattr net "cT_20_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<20>.I                  BLOCK_OUTPUT   V17.I            Driver
+	#   SWITCH_CHAIN/netB<21>.A4  BLOCK_INPUT    SLICE_X32Y22.A3   2.606ns
+	#getattr net "cB_20_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<20>.I                  BLOCK_OUTPUT   A18.I            Driver
+	#   SWITCH_CHAIN/netB<21>.B4  BLOCK_INPUT    SLICE_X32Y22.B1   3.371ns
+	#getattr net "cT_21_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<21>.I                  BLOCK_OUTPUT   T11.I            Driver
+	#   SWITCH_CHAIN/netB<22>.A4  BLOCK_INPUT    SLICE_X32Y23.A6   2.245ns
+	#getattr net "cB_21_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<21>.I                  BLOCK_OUTPUT   E15.I            Driver
+	#   SWITCH_CHAIN/netB<22>.B4  BLOCK_INPUT    SLICE_X32Y23.B6   2.814ns
+	#getattr net "cT_22_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<22>.I                  BLOCK_OUTPUT   U11.I            Driver
+	#   SWITCH_CHAIN/netB<23>.A4  BLOCK_INPUT    SLICE_X32Y24.A1   2.573ns
+	#getattr net "cB_22_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<22>.I                  BLOCK_OUTPUT   E16.I            Driver
+	#   SWITCH_CHAIN/netB<23>.B4  BLOCK_INPUT    SLICE_X32Y24.B1   3.227ns
+	#getattr net "cT_23_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<23>.I                  BLOCK_OUTPUT   U12.I            Driver
+	#   SWITCH_CHAIN/netB<24>.A4  BLOCK_INPUT    SLICE_X32Y25.A3   2.356ns
+	#getattr net "cB_23_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<23>.I                  BLOCK_OUTPUT   D15.I            Driver
+	#   SWITCH_CHAIN/netB<24>.B4  BLOCK_INPUT    SLICE_X32Y25.B1   3.564ns
+	#getattr net "cT_24_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<24>.I                  BLOCK_OUTPUT   V12.I            Driver
+	#   SWITCH_CHAIN/netB<25>.A4  BLOCK_INPUT    SLICE_X32Y26.A1   2.378ns
+	#getattr net "cB_24_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<24>.I                  BLOCK_OUTPUT   C15.I            Driver
+	#   SWITCH_CHAIN/netB<25>.B4  BLOCK_INPUT    SLICE_X32Y26.B1   3.722ns
+	#getattr net "cT_25_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<25>.I                  BLOCK_OUTPUT   V10.I            Driver
+	#   SWITCH_CHAIN/netB<26>.A4  BLOCK_INPUT    SLICE_X32Y27.A3   2.211ns
+	#getattr net "cB_25_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<25>.I                  BLOCK_OUTPUT   H16.I            Driver
+	#   SWITCH_CHAIN/netB<26>.B4  BLOCK_INPUT    SLICE_X32Y27.B6   3.051ns
+	#getattr net "cT_26_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<26>.I                  BLOCK_OUTPUT   V11.I            Driver
+	#   SWITCH_CHAIN/netB<27>.A4  BLOCK_INPUT    SLICE_X32Y28.A1   2.444ns
+	#getattr net "cB_26_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<26>.I                  BLOCK_OUTPUT   G16.I            Driver
+	#   SWITCH_CHAIN/netB<27>.B4  BLOCK_INPUT    SLICE_X32Y28.B3   3.507ns
+	#getattr net "cT_27_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<27>.I                  BLOCK_OUTPUT   U14.I            Driver
+	#   SWITCH_CHAIN/netB<28>.A4  BLOCK_INPUT    SLICE_X32Y29.A6   2.010ns
+	#getattr net "cB_27_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<27>.I                  BLOCK_OUTPUT   F15.I            Driver
+	#   SWITCH_CHAIN/netB<28>.B4  BLOCK_INPUT    SLICE_X32Y29.B6   2.799ns
+	#getattr net "cT_28_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<28>.I                  BLOCK_OUTPUT   V14.I            Driver
+	#   SWITCH_CHAIN/netB<29>.A4  BLOCK_INPUT    SLICE_X32Y30.A3   2.053ns
+	#getattr net "cB_28_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<28>.I                  BLOCK_OUTPUT   F16.I            Driver
+	#   SWITCH_CHAIN/netB<29>.B4  BLOCK_INPUT    SLICE_X32Y30.B6   3.744ns
+	#getattr net "cT_29_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<29>.I                  BLOCK_OUTPUT   T13.I            Driver
+	#   SWITCH_CHAIN/netB<30>.A4  BLOCK_INPUT    SLICE_X32Y31.A1   2.169ns
+	#getattr net "cB_29_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<29>.I                  BLOCK_OUTPUT   H14.I            Driver
+	#   SWITCH_CHAIN/netB<30>.B4  BLOCK_INPUT    SLICE_X32Y31.B1   3.284ns
+	#getattr net "cT_30_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<30>.I                  BLOCK_OUTPUT   U13.I            Driver
+	#   SWITCH_CHAIN/netB<31>.A4  BLOCK_INPUT    SLICE_X32Y32.A3   2.001ns
+	#getattr net "cB_30_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<30>.I                  BLOCK_OUTPUT   G14.I            Driver
+	#   SWITCH_CHAIN/netB<31>.B4  BLOCK_INPUT    SLICE_X32Y32.B6   2.955ns
+	#getattr net "cT_31_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<31>.I                  BLOCK_OUTPUT   T9.I             Driver
+	#   SWITCH_CHAIN/netB<32>.A4  BLOCK_INPUT    SLICE_X32Y33.A1   2.147ns
+	#getattr net "cB_31_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<31>.I                  BLOCK_OUTPUT   E17.I            Driver
+	#   SWITCH_CHAIN/netB<32>.B4  BLOCK_INPUT    SLICE_X32Y33.B6   2.849ns
+	#getattr net "cT_32_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<32>.I                  BLOCK_OUTPUT   T10.I            Driver
+	#   SWITCH_CHAIN/netB<33>.A4  BLOCK_INPUT    SLICE_X32Y34.A1   2.040ns
+	#getattr net "cB_32_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<32>.I                  BLOCK_OUTPUT   D17.I            Driver
+	#   SWITCH_CHAIN/netB<33>.B4  BLOCK_INPUT    SLICE_X32Y34.B6   2.733ns
+	#getattr net "cT_33_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<33>.I                  BLOCK_OUTPUT   R10.I            Driver
+	#   SWITCH_CHAIN/netB<34>.A4  BLOCK_INPUT    SLICE_X32Y35.A3   1.843ns
+	#getattr net "cB_33_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<33>.I                  BLOCK_OUTPUT   K13.I            Driver
+	#   SWITCH_CHAIN/netB<34>.B4  BLOCK_INPUT    SLICE_X32Y35.B6   2.597ns
+	#getattr net "cT_34_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<34>.I                  BLOCK_OUTPUT   L3.I             Driver
+	#   SWITCH_CHAIN/netB<35>.A4  BLOCK_INPUT    SLICE_X32Y36.A3   2.757ns
+	#getattr net "cB_34_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<34>.I                  BLOCK_OUTPUT   J13.I            Driver
+	#   SWITCH_CHAIN/netB<35>.B4  BLOCK_INPUT    SLICE_X32Y36.B6   2.689ns
+	#getattr net "cT_35_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<35>.I                  BLOCK_OUTPUT   N2.I             Driver
+	#   SWITCH_CHAIN/netB<36>.A4  BLOCK_INPUT    SLICE_X32Y37.A6   2.493ns
+	#getattr net "cB_35_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<35>.I                  BLOCK_OUTPUT   H17.I            Driver
+	#   SWITCH_CHAIN/netB<36>.B4  BLOCK_INPUT    SLICE_X32Y37.B6   3.121ns
+	#getattr net "cT_36_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<36>.I                  BLOCK_OUTPUT   N1.I             Driver
+	#   SWITCH_CHAIN/netB<37>.A4  BLOCK_INPUT    SLICE_X32Y38.A5   2.568ns
+	#getattr net "cB_36_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<36>.I                  BLOCK_OUTPUT   G17.I            Driver
+	#   SWITCH_CHAIN/netB<37>.B4  BLOCK_INPUT    SLICE_X32Y38.B6   2.740ns
+	#getattr net "cT_37_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<37>.I                  BLOCK_OUTPUT   M3.I             Driver
+	#   SWITCH_CHAIN/netB<38>.A4  BLOCK_INPUT    SLICE_X32Y39.A3   2.752ns
+	#getattr net "cB_37_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<37>.I                  BLOCK_OUTPUT   J14.I            Driver
+	#   SWITCH_CHAIN/netB<38>.B4  BLOCK_INPUT    SLICE_X32Y39.B6   3.253ns
+	#getattr net "cT_38_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<38>.I                  BLOCK_OUTPUT   M2.I             Driver
+	#   SWITCH_CHAIN/netB<39>.A4  BLOCK_INPUT    SLICE_X32Y40.A6   2.517ns
+	#getattr net "cB_38_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<38>.I                  BLOCK_OUTPUT   H15.I            Driver
+	#   SWITCH_CHAIN/netB<39>.B4  BLOCK_INPUT    SLICE_X32Y40.B2   3.654ns
+	#getattr net "cT_39_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<39>.I                  BLOCK_OUTPUT   K5.I             Driver
+	#   SWITCH_CHAIN/netB<40>.A4  BLOCK_INPUT    SLICE_X32Y41.A3   2.733ns
+	#getattr net "cB_39_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<39>.I                  BLOCK_OUTPUT   C16.I            Driver
+	#   SWITCH_CHAIN/netB<40>.B4  BLOCK_INPUT    SLICE_X32Y41.B6   3.129ns
+	#getattr net "cT_40_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<40>.I                  BLOCK_OUTPUT   L4.I             Driver
+	#   SWITCH_CHAIN/netB<41>.A4  BLOCK_INPUT    SLICE_X32Y42.A1   2.899ns
+	#getattr net "cB_40_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<40>.I                  BLOCK_OUTPUT   C17.I            Driver
+	#   SWITCH_CHAIN/netB<41>.B4  BLOCK_INPUT    SLICE_X32Y42.B6   3.168ns
+	#getattr net "cT_41_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<41>.I                  BLOCK_OUTPUT   L6.I             Driver
+	#   SWITCH_CHAIN/netB<42>.A4  BLOCK_INPUT    SLICE_X32Y43.A6   2.355ns
+	#getattr net "cB_41_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<41>.I                  BLOCK_OUTPUT   E18.I            Driver
+	#   SWITCH_CHAIN/netB<42>.B4  BLOCK_INPUT    SLICE_X32Y43.B5   3.000ns
+	#getattr net "cT_42_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<42>.I                  BLOCK_OUTPUT   L5.I             Driver
+	#   SWITCH_CHAIN/netB<43>.A4  BLOCK_INPUT    SLICE_X32Y44.A3   2.503ns
+	#getattr net "cB_42_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<42>.I                  BLOCK_OUTPUT   D18.I            Driver
+	#   SWITCH_CHAIN/netB<43>.B4  BLOCK_INPUT    SLICE_X32Y44.B3   3.422ns
+	#getattr net "cT_43_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<43>.I                  BLOCK_OUTPUT   U1.I             Driver
+	#   SWITCH_CHAIN/netB<44>.A4  BLOCK_INPUT    SLICE_X32Y45.A3   2.507ns
+	#getattr net "cB_43_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<43>.I                  BLOCK_OUTPUT   G18.I            Driver
+	#   SWITCH_CHAIN/netB<44>.B4  BLOCK_INPUT    SLICE_X32Y45.B5   2.976ns
+	#getattr net "cT_44_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<44>.I                  BLOCK_OUTPUT   V1.I             Driver
+	#   SWITCH_CHAIN/netB<45>.A4  BLOCK_INPUT    SLICE_X32Y46.A6   2.243ns
+	#getattr net "cB_44_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<44>.I                  BLOCK_OUTPUT   F18.I            Driver
+	#   SWITCH_CHAIN/netB<45>.B4  BLOCK_INPUT    SLICE_X32Y46.B6   2.774ns
+	#getattr net "cT_45_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<45>.I                  BLOCK_OUTPUT   U4.I             Driver
+	#   SWITCH_CHAIN/netB<46>.A4  BLOCK_INPUT    SLICE_X32Y47.A5   2.318ns
+	#getattr net "cB_45_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<45>.I                  BLOCK_OUTPUT   J17.I            Driver
+	#   SWITCH_CHAIN/netB<46>.B4  BLOCK_INPUT    SLICE_X32Y47.B1   3.116ns
+	#getattr net "cT_46_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<46>.I                  BLOCK_OUTPUT   U3.I             Driver
+	#   SWITCH_CHAIN/netB<47>.A4  BLOCK_INPUT    SLICE_X32Y48.A3   2.502ns
+	#getattr net "cB_46_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<46>.I                  BLOCK_OUTPUT   J18.I            Driver
+	#   SWITCH_CHAIN/netB<47>.B4  BLOCK_INPUT    SLICE_X32Y48.B1   3.009ns
+	#getattr net "cT_47_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<47>.I                  BLOCK_OUTPUT   U2.I             Driver
+	#   SWITCH_CHAIN/netB<48>.A4  BLOCK_INPUT    SLICE_X32Y49.A1   3.030ns
+	#getattr net "cB_47_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<47>.I                  BLOCK_OUTPUT   K15.I            Driver
+	#   SWITCH_CHAIN/netB<48>.B4  BLOCK_INPUT    SLICE_X32Y49.B2   3.008ns
+	#getattr net "cT_48_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<48>.I                  BLOCK_OUTPUT   V2.I             Driver
+	#   SWITCH_CHAIN/netB<49>.A4  BLOCK_INPUT    SLICE_X32Y50.A3   2.947ns
+	#getattr net "cB_48_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<48>.I                  BLOCK_OUTPUT   J15.I            Driver
+	#   SWITCH_CHAIN/netB<49>.B4  BLOCK_INPUT    SLICE_X32Y50.B1   2.959ns
+	#getattr net "cT_49_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<49>.I                  BLOCK_OUTPUT   V5.I             Driver
+	#   SWITCH_CHAIN/netB<50>.A4  BLOCK_INPUT    SLICE_X32Y51.A3   2.633ns
+	#getattr net "cB_49_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<49>.I                  BLOCK_OUTPUT   K16.I            Driver
+	#   SWITCH_CHAIN/netB<50>.B4  BLOCK_INPUT    SLICE_X32Y51.B6   2.566ns
+	#getattr net "cT_50_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<50>.I                  BLOCK_OUTPUT   V4.I             Driver
+	#   SWITCH_CHAIN/netB<51>.A4  BLOCK_INPUT    SLICE_X32Y52.A6   2.368ns
+	#getattr net "cB_50_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<50>.I                  BLOCK_OUTPUT   R11.I            Driver
+	#   SWITCH_CHAIN/netB<51>.B4  BLOCK_INPUT    SLICE_X32Y52.B6   2.515ns
+	#getattr net "cT_51_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<51>.I                  BLOCK_OUTPUT   R3.I             Driver
+	#   SWITCH_CHAIN/netB<52>.A4  BLOCK_INPUT    SLICE_X32Y53.A1   2.404ns
+	#getattr net "cB_51_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<51>.I                  BLOCK_OUTPUT   K17.I            Driver
+	#   SWITCH_CHAIN/netB<52>.B4  BLOCK_INPUT    SLICE_X32Y53.B6   2.379ns
+	#getattr net "cT_52_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<52>.I                  BLOCK_OUTPUT   T3.I             Driver
+	#   SWITCH_CHAIN/netB<53>.A4  BLOCK_INPUT    SLICE_X32Y54.A3   2.475ns
+	#getattr net "cB_52_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<52>.I                  BLOCK_OUTPUT   K18.I            Driver
+	#   SWITCH_CHAIN/netB<53>.B4  BLOCK_INPUT    SLICE_X32Y54.B6   2.247ns
+	#getattr net "cT_53_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<53>.I                  BLOCK_OUTPUT   T5.I             Driver
+	#   SWITCH_CHAIN/netB<54>.A4  BLOCK_INPUT    SLICE_X32Y55.A1   2.404ns
+	#getattr net "cB_53_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<53>.I                  BLOCK_OUTPUT   L14.I            Driver
+	#   SWITCH_CHAIN/netB<54>.B4  BLOCK_INPUT    SLICE_X32Y55.B3   2.594ns
+	#getattr net "cT_54_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<54>.I                  BLOCK_OUTPUT   T4.I             Driver
+	#   SWITCH_CHAIN/netB<55>.A4  BLOCK_INPUT    SLICE_X32Y56.A5   2.082ns
+	#getattr net "cB_54_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<54>.I                  BLOCK_OUTPUT   M14.I            Driver
+	#   SWITCH_CHAIN/netB<55>.B4  BLOCK_INPUT    SLICE_X32Y56.B5   2.195ns
+	#getattr net "cT_55_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<55>.I                  BLOCK_OUTPUT   N5.I             Driver
+	#   SWITCH_CHAIN/netB<56>.A4  BLOCK_INPUT    SLICE_X32Y57.A1   2.403ns
+	#getattr net "cB_55_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<55>.I                  BLOCK_OUTPUT   L15.I            Driver
+	#   SWITCH_CHAIN/netB<56>.B4  BLOCK_INPUT    SLICE_X32Y57.B1   2.588ns
+	#getattr net "cT_56_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<56>.I                  BLOCK_OUTPUT   P5.I             Driver
+	#   SWITCH_CHAIN/netB<57>.A4  BLOCK_INPUT    SLICE_X32Y58.A6   1.985ns
+	#getattr net "cB_56_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<56>.I                  BLOCK_OUTPUT   L16.I            Driver
+	#   SWITCH_CHAIN/netB<57>.B4  BLOCK_INPUT    SLICE_X32Y58.B3   2.384ns
+	#getattr net "cT_57_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<57>.I                  BLOCK_OUTPUT   P4.I             Driver
+	#   SWITCH_CHAIN/netB<58>.A4  BLOCK_INPUT    SLICE_X32Y59.A5   2.102ns
+	#getattr net "cB_57_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<57>.I                  BLOCK_OUTPUT   L18.I            Driver
+	#   SWITCH_CHAIN/netB<58>.B4  BLOCK_INPUT    SLICE_X32Y59.B1   2.395ns
+	#getattr net "cT_58_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<58>.I                  BLOCK_OUTPUT   P3.I             Driver
+	#   SWITCH_CHAIN/netB<59>.A4  BLOCK_INPUT    SLICE_X32Y60.A1   2.367ns
+	#getattr net "cB_58_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<58>.I                  BLOCK_OUTPUT   M18.I            Driver
+	#   SWITCH_CHAIN/netB<59>.B4  BLOCK_INPUT    SLICE_X32Y60.B3   2.239ns
+	#getattr net "cT_59_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<59>.I                  BLOCK_OUTPUT   P2.I             Driver
+	#   SWITCH_CHAIN/netB<60>.A4  BLOCK_INPUT    SLICE_X32Y61.A6   1.837ns
+	#getattr net "cB_59_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<59>.I                  BLOCK_OUTPUT   R12.I            Driver
+	#   SWITCH_CHAIN/netB<60>.B4  BLOCK_INPUT    SLICE_X32Y61.B1   2.344ns
+	#getattr net "cT_60_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<60>.I                  BLOCK_OUTPUT   N4.I             Driver
+	#   SWITCH_CHAIN/netB<61>.A4  BLOCK_INPUT    SLICE_X32Y62.A3   1.975ns
+	#getattr net "cB_60_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<60>.I                  BLOCK_OUTPUT   R13.I            Driver
+	#   SWITCH_CHAIN/netB<61>.B4  BLOCK_INPUT    SLICE_X32Y62.B6   2.024ns
+	#getattr net "cT_61_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<61>.I                  BLOCK_OUTPUT   N6.I             Driver
+	#   SWITCH_CHAIN/netB<62>.A4  BLOCK_INPUT    SLICE_X32Y63.A4   1.924ns
+	#getattr net "cB_61_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<61>.I                  BLOCK_OUTPUT   L13.I            Driver
+	#   SWITCH_CHAIN/netB<62>.B4  BLOCK_INPUT    SLICE_X32Y63.B3   2.080ns
+	#getattr net "cT_62_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<62>.I                  BLOCK_OUTPUT   R1.I             Driver
+	#   SWITCH_CHAIN/netB<63>.A4  BLOCK_INPUT    SLICE_X32Y64.A1   2.129ns
+	#getattr net "cB_62_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name             Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<62>.I                  BLOCK_OUTPUT   M13.I            Driver
+	#   SWITCH_CHAIN/netB<63>.B4  BLOCK_INPUT    SLICE_X32Y64.B1   2.186ns
+	#getattr net "cT_63_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name  Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cT<63>.I       BLOCK_OUTPUT   T1.I             Driver
+	#   pathB.A4       BLOCK_INPUT    SLICE_X32Y65.A5   1.811ns
+	#getattr net "cB_63_IBUF"  pin_list
+	#pin_list = 
+	#   Comp Pin Name  Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   cB<63>.I       BLOCK_OUTPUT   R18.I            Driver
+	#   pathB.B4       BLOCK_INPUT    SLICE_X32Y65.B1   2.078ns
+	#getattr net "ARBITER/dout" pin_list
+	#pin_list = 
+	#   Comp Pin Name    Comp Pin Type  Site Pin Name    Delays (ns)  
+	#   respBit.O        BLOCK_INPUT    R2.O              2.486ns
+	#   ARBITER/dout.BQ  BLOCK_OUTPUT   SLICE_X31Y66.BQ  Driver
+	#getattr net "respReady_OBUF" pin_list
+	#pin_list = 
+	#   Comp Pin Name   Comp Pin Type  Site Pin Name   Delays (ns)  
+	#   respReady.O     BLOCK_INPUT    M4.O             2.394ns
+	#   ARBITER/dout.A  BLOCK_OUTPUT   SLICE_X31Y66.A  Driver
+	#quit!

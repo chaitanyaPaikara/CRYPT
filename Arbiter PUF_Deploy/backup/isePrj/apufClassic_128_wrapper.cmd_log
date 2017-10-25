@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "F:/RESEARCH/vlsid_2015/APUF_Cliassic/MacroDesign/APUF_Classic_128/isePrj/apufClassic_128_wrapper.xst" -ofn "F:/RESEARCH/vlsid_2015/APUF_Cliassic/MacroDesign/APUF_Classic_128/isePrj/apufClassic_128_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../src/verilog/myLibrary -nt timestamp -uc F:/RESEARCH/vlsid_2015/APUF_Cliassic/MacroDesign/APUF_Classic_128/src/ucf/wrapper.ucf -uc F:/RESEARCH/vlsid_2015/APUF_Cliassic/MacroDesign/APUF_Classic_128/src/ucf/apuf_128_x2y2_artix7_a.ucf -p xc7a100t-csg324-3 apufClassic_128_wrapper.ngc apufClassic_128_wrapper.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o apufClassic_128_wrapper_map.ncd apufClassic_128_wrapper.ngd apufClassic_128_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off apufClassic_128_wrapper_map.ncd apufClassic_128_wrapper.ncd apufClassic_128_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml apufClassic_128_wrapper.twx apufClassic_128_wrapper.ncd -o apufClassic_128_wrapper.twr apufClassic_128_wrapper.pcf 
+bitgen -intstyle ise -f apufClassic_128_wrapper.ut apufClassic_128_wrapper.ncd 
+xst -intstyle ise -ifn "F:/RESEARCH/vlsid_2015/APUF_Cliassic/MacroDesign/APUF_Classic_128/isePrj/apufClassic_128_wrapper.xst" -ofn "F:/RESEARCH/vlsid_2015/APUF_Cliassic/MacroDesign/APUF_Classic_128/isePrj/apufClassic_128_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../src/verilog/myLibrary -nt timestamp -uc F:/RESEARCH/vlsid_2015/APUF_Cliassic/MacroDesign/APUF_Classic_128/src/ucf/apuf_128_x2y2_artix7_a.ucf -uc F:/RESEARCH/vlsid_2015/APUF_Cliassic/MacroDesign/APUF_Classic_128/src/ucf/wrapper.ucf -p xc7a100t-csg324-3 apufClassic_128_wrapper.ngc apufClassic_128_wrapper.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o apufClassic_128_wrapper_map.ncd apufClassic_128_wrapper.ngd apufClassic_128_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off apufClassic_128_wrapper_map.ncd apufClassic_128_wrapper.ncd apufClassic_128_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml apufClassic_128_wrapper.twx apufClassic_128_wrapper.ncd -o apufClassic_128_wrapper.twr apufClassic_128_wrapper.pcf 

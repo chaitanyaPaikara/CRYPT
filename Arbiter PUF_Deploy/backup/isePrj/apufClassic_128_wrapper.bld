@@ -1,0 +1,47 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ../src/verilog/myLibrary -nt timestamp -uc
+F:/RESEARCH/vlsid_2015/APUF_Cliassic/MacroDesign/APUF_Classic_128/src/ucf/apuf_1
+28_x2y2_artix7_a.ucf -uc
+F:/RESEARCH/vlsid_2015/APUF_Cliassic/MacroDesign/APUF_Classic_128/src/ucf/wrappe
+r.ucf -p xc7a100t-csg324-3 apufClassic_128_wrapper.ngc
+apufClassic_128_wrapper.ngd
+
+Reading NGO file
+"F:/RESEARCH/vlsid_2015/APUF_Cliassic/MacroDesign/APUF_Classic_128/isePrj/apufCl
+assic_128_wrapper.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file
+"F:/RESEARCH/vlsid_2015/APUF_Cliassic/MacroDesign/APUF_Classic_128/src/ucf/apuf_
+128_x2y2_artix7_a.ucf" ...
+Annotating constraints to design from ucf file
+"F:/RESEARCH/vlsid_2015/APUF_Cliassic/MacroDesign/APUF_Classic_128/src/ucf/wrapp
+er.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 218320 kilobytes
+
+Writing NGD file "apufClassic_128_wrapper.ngd" ...
+Total REAL time to NGDBUILD completion:  13 sec
+Total CPU time to NGDBUILD completion:   12 sec
+
+Writing NGDBUILD log file "apufClassic_128_wrapper.bld"...

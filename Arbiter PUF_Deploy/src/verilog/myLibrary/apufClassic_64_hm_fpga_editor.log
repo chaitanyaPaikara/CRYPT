@@ -1,0 +1,42 @@
+#:C9     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.20131013
+#Current Working Directory:
+#:D   C:\Xilinx\14.7\ISE_DS\ISE
+#Date/Time:
+#:T   Thu Dec 25 03:03:31 2014
+#------------------------------
+	#Reading F:\RESEARCH\vlsid_2015\APUF_Cliassic\MacroDesign\src\verilog\myLibrary\apufClassic_64_hm.nmc...
+	#   "apufClassic_64_hm" is an NCD, version 3.2, device xc7a100t, package csg324, speed -3
+	#Design creation date: 2014.12.24.21.33.33
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+select -k comp 'SWITCH_CHAIN/STAGE[5].SW/SWITCH_CHAIN/netB<6>'
+	#2
+unselect comp 'SWITCH_CHAIN/STAGE[5].SW/SWITCH_CHAIN/netB<6>'
+	#3
+select -k comp 'tigReg'
+	#4
+unselect -all
+	#5
+unselect -all
+	#6
+unselect -all
+	#7
+unselect -all
+	#8
+unselect -all
+	#9
+unselect -all
+	#10
+select net 'tigSignal_inv'
+	#net "tigSignal_inv"
+	#11
+unselect -all
+	#12
+select site 'SLICE_X33Y1'
+	#site "SLICE_X33Y1",  type = SLICEL  (RPM grid X91Y2)
+	#13
+post open

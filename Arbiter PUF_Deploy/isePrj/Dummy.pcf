@@ -1,0 +1,10 @@
+//! **************************************************************************
+// Written by: Map P.28xd on Mon Oct 16 18:06:25 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "E3" LEVEL 1;
+COMP "rx" LOCATE = SITE "C4" LEVEL 1;
+COMP "tx" LOCATE = SITE "D4" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,52 @@
+xst -intstyle ise -ifn "F:/RESEARCH/UPDATED_PUF_DESIGN/Artix7/APUF_Classic_128/isePrj/APUFClassic_128_wrapper.xst" -ofn "F:/RESEARCH/UPDATED_PUF_DESIGN/Artix7/APUF_Classic_128/isePrj/APUFClassic_128_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../src/verilog/myLibrary -nt timestamp -uc F:/RESEARCH/UPDATED_PUF_DESIGN/Artix7/APUF_Classic_128/src/ucf/apuf_128_x2y2_artix7_a.ucf -uc F:/RESEARCH/UPDATED_PUF_DESIGN/Artix7/APUF_Classic_128/src/ucf/wrapper.ucf -p xc7a100t-csg324-3 APUFClassic_128_wrapper.ngc APUFClassic_128_wrapper.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o APUFClassic_128_wrapper_map.ncd APUFClassic_128_wrapper.ngd APUFClassic_128_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off APUFClassic_128_wrapper_map.ncd APUFClassic_128_wrapper.ncd APUFClassic_128_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml APUFClassic_128_wrapper.twx APUFClassic_128_wrapper.ncd -o APUFClassic_128_wrapper.twr APUFClassic_128_wrapper.pcf 
+bitgen -intstyle ise -f APUFClassic_128_wrapper.ut APUFClassic_128_wrapper.ncd 
+xst -intstyle ise -ifn "E:/trapnext/Arbiter PUF_Deploy/isePrj/APUFClassic_128_wrapper.xst" -ofn "E:/trapnext/Arbiter PUF_Deploy/isePrj/APUFClassic_128_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../src/verilog/myLibrary -nt timestamp -uc "E:/trapnext/Arbiter PUF_Deploy/src/ucf/wrapper.ucf" -uc "E:/trapnext/Arbiter PUF_Deploy/src/ucf/apuf_128_x2y2_artix7_a.ucf" -p xc7a100t-csg324-3 "APUFClassic_128_wrapper.ngc" APUFClassic_128_wrapper.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ../src/verilog/myLibrary -nt timestamp -uc "E:/trapnext/Arbiter PUF_Deploy/src/ucf/wrapper.ucf" -uc "E:/trapnext/Arbiter PUF_Deploy/src/ucf/apuf_128_x2y2_artix7_a.ucf" -p xc7a100t-csg324-3 "APUFClassic_128_wrapper.ngc" APUFClassic_128_wrapper.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ../src/verilog/myLibrary -nt timestamp -uc "E:/trapnext/Arbiter PUF_Deploy/src/ucf/wrapper.ucf" -uc "E:/trapnext/Arbiter PUF_Deploy/src/ucf/apuf_128_x2y2_artix7_a.ucf" -p xc7a100t-csg324-3 "APUFClassic_128_wrapper.ngc" APUFClassic_128_wrapper.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o APUFClassic_128_wrapper_map.ncd APUFClassic_128_wrapper.ngd APUFClassic_128_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off APUFClassic_128_wrapper_map.ncd APUFClassic_128_wrapper.ncd APUFClassic_128_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml APUFClassic_128_wrapper.twx APUFClassic_128_wrapper.ncd -o APUFClassic_128_wrapper.twr APUFClassic_128_wrapper.pcf 
+bitgen -intstyle ise -f APUFClassic_128_wrapper.ut APUFClassic_128_wrapper.ncd 
+xst -intstyle ise -ifn "E:/trapnext/Arbiter PUF_Deploy/isePrj/APUFClassic_128_wrapper.xst" -ofn "E:/trapnext/Arbiter PUF_Deploy/isePrj/APUFClassic_128_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../src/verilog/myLibrary -nt timestamp -uc "E:/trapnext/Arbiter PUF_Deploy/src/ucf/wrapper.ucf" -uc "E:/trapnext/Arbiter PUF_Deploy/src/ucf/apuf_128_x2y2_artix7_a.ucf" -p xc7a100t-csg324-3 "APUFClassic_128_wrapper.ngc" APUFClassic_128_wrapper.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o APUFClassic_128_wrapper_map.ncd APUFClassic_128_wrapper.ngd APUFClassic_128_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off APUFClassic_128_wrapper_map.ncd APUFClassic_128_wrapper.ncd APUFClassic_128_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml APUFClassic_128_wrapper.twx APUFClassic_128_wrapper.ncd -o APUFClassic_128_wrapper.twr APUFClassic_128_wrapper.pcf 
+bitgen -intstyle ise -f APUFClassic_128_wrapper.ut APUFClassic_128_wrapper.ncd 
+xst -intstyle ise -ifn "E:/trapnext/Arbiter PUF_Deploy/isePrj/APUFClassic_128_wrapper.xst" -ofn "E:/trapnext/Arbiter PUF_Deploy/isePrj/APUFClassic_128_wrapper.syr" 
+xst -intstyle ise -ifn "E:/trapnext/Arbiter PUF_Deploy/isePrj/APUFClassic_128_wrapper.xst" -ofn "E:/trapnext/Arbiter PUF_Deploy/isePrj/APUFClassic_128_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../src/verilog/myLibrary -nt timestamp -uc "E:/trapnext/Arbiter PUF_Deploy/src/ucf/wrapper.ucf" -uc "E:/trapnext/Arbiter PUF_Deploy/src/ucf/apuf_128_x2y2_artix7_a.ucf" -p xc7a100t-csg324-3 "APUFClassic_128_wrapper.ngc" APUFClassic_128_wrapper.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o APUFClassic_128_wrapper_map.ncd APUFClassic_128_wrapper.ngd APUFClassic_128_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off APUFClassic_128_wrapper_map.ncd APUFClassic_128_wrapper.ncd APUFClassic_128_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml APUFClassic_128_wrapper.twx APUFClassic_128_wrapper.ncd -o APUFClassic_128_wrapper.twr APUFClassic_128_wrapper.pcf 
+bitgen -intstyle ise -f APUFClassic_128_wrapper.ut APUFClassic_128_wrapper.ncd 
+xst -intstyle ise -ifn "E:/trapnext/Arbiter PUF_Deploy/isePrj/APUFClassic_128_wrapper.xst" -ofn "E:/trapnext/Arbiter PUF_Deploy/isePrj/APUFClassic_128_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../src/verilog/myLibrary -nt timestamp -uc "E:/trapnext/Arbiter PUF_Deploy/src/ucf/wrapper.ucf" -uc "E:/trapnext/Arbiter PUF_Deploy/src/ucf/apuf_128_x2y2_artix7_a.ucf" -p xc7a100t-csg324-3 "APUFClassic_128_wrapper.ngc" APUFClassic_128_wrapper.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o APUFClassic_128_wrapper_map.ncd APUFClassic_128_wrapper.ngd APUFClassic_128_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off APUFClassic_128_wrapper_map.ncd APUFClassic_128_wrapper.ncd APUFClassic_128_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml APUFClassic_128_wrapper.twx APUFClassic_128_wrapper.ncd -o APUFClassic_128_wrapper.twr APUFClassic_128_wrapper.pcf 
+bitgen -intstyle ise -f APUFClassic_128_wrapper.ut APUFClassic_128_wrapper.ncd 
+xst -intstyle ise -ifn "E:/trapnext/Arbiter PUF_Deploy/isePrj/APUFClassic_128_wrapper.xst" -ofn "E:/trapnext/Arbiter PUF_Deploy/isePrj/APUFClassic_128_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../src/verilog/myLibrary -nt timestamp -uc "E:/trapnext/Arbiter PUF_Deploy/src/ucf/wrapper.ucf" -uc "E:/trapnext/Arbiter PUF_Deploy/src/ucf/apuf_128_x2y2_artix7_a.ucf" -p xc7a100t-csg324-3 "APUFClassic_128_wrapper.ngc" APUFClassic_128_wrapper.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o APUFClassic_128_wrapper_map.ncd APUFClassic_128_wrapper.ngd APUFClassic_128_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off APUFClassic_128_wrapper_map.ncd APUFClassic_128_wrapper.ncd APUFClassic_128_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml APUFClassic_128_wrapper.twx APUFClassic_128_wrapper.ncd -o APUFClassic_128_wrapper.twr APUFClassic_128_wrapper.pcf 
+bitgen -intstyle ise -f APUFClassic_128_wrapper.ut APUFClassic_128_wrapper.ncd 
+xst -intstyle ise -ifn "E:/trapnext/Arbiter PUF_Deploy/isePrj/APUFClassic_128_wrapper.xst" -ofn "E:/trapnext/Arbiter PUF_Deploy/isePrj/APUFClassic_128_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../src/verilog/myLibrary -nt timestamp -uc "E:/trapnext/Arbiter PUF_Deploy/src/ucf/wrapper.ucf" -uc "E:/trapnext/Arbiter PUF_Deploy/src/ucf/apuf_128_x2y2_artix7_a.ucf" -p xc7a100t-csg324-3 "APUFClassic_128_wrapper.ngc" APUFClassic_128_wrapper.ngd  
+xst -intstyle ise -ifn "E:/trapnext/Arbiter PUF_Deploy/isePrj/APUFClassic_128_wrapper.xst" -ofn "E:/trapnext/Arbiter PUF_Deploy/isePrj/APUFClassic_128_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../src/verilog/myLibrary -nt timestamp -uc "E:/trapnext/Arbiter PUF_Deploy/src/ucf/wrapper.ucf" -uc "E:/trapnext/Arbiter PUF_Deploy/src/ucf/apuf_128_x2y2_artix7_a.ucf" -p xc7a100t-csg324-3 "APUFClassic_128_wrapper.ngc" APUFClassic_128_wrapper.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o APUFClassic_128_wrapper_map.ncd APUFClassic_128_wrapper.ngd APUFClassic_128_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off APUFClassic_128_wrapper_map.ncd APUFClassic_128_wrapper.ncd APUFClassic_128_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml APUFClassic_128_wrapper.twx APUFClassic_128_wrapper.ncd -o APUFClassic_128_wrapper.twr APUFClassic_128_wrapper.pcf 
+xst -intstyle ise -ifn "E:/trapnext/Arbiter PUF_Deploy/isePrj/APUFClassic_128_wrapper.xst" -ofn "E:/trapnext/Arbiter PUF_Deploy/isePrj/APUFClassic_128_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../src/verilog/myLibrary -nt timestamp -uc "E:/trapnext/Arbiter PUF_Deploy/src/ucf/wrapper.ucf" -p xc7a100t-csg324-3 "APUFClassic_128_wrapper.ngc" APUFClassic_128_wrapper.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o APUFClassic_128_wrapper_map.ncd APUFClassic_128_wrapper.ngd APUFClassic_128_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off APUFClassic_128_wrapper_map.ncd APUFClassic_128_wrapper.ncd APUFClassic_128_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml APUFClassic_128_wrapper.twx APUFClassic_128_wrapper.ncd -o APUFClassic_128_wrapper.twr APUFClassic_128_wrapper.pcf 
+bitgen -intstyle ise -f APUFClassic_128_wrapper.ut APUFClassic_128_wrapper.ncd 

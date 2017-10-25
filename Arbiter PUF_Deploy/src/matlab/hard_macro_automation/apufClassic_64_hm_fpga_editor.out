@@ -1,0 +1,84 @@
+#:C29    
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.20131013
+#Current Working Directory:
+#:D   C:\Xilinx\14.7\ISE_DS\ISE
+#Date/Time:
+#:T   Thu Dec 25 10:20:24 2014
+#------------------------------
+	#Reading F:\RESEARCH\vlsid_2015\APUF_Cliassic\MacroDesign\src\matlab\hard_macro_automation\apufClassic_64_hm.nmc...
+	#   "apufClassic_64_hm" is an NCD, version 3.2, device xc7a100t, package csg324, speed -3
+	#Design creation date: 2014.12.25.04.50.27
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+select -k comp 'SWITCH_CHAIN/STAGE[59].SW/SWITCH_CHAIN/netB<60>'
+	#2
+unselect comp 'SWITCH_CHAIN/STAGE[59].SW/SWITCH_CHAIN/netB<60>'
+	#3
+select -k comp 'tigReg'
+	#4
+unselect -all
+	#5
+select comp 'tigReg'
+	#comp "tigReg",  site "SLICE_X32Y1",  type = SLICEL  (RPM grid X89Y2)
+	#6
+unselect -all
+	#7
+unselect -all
+	#8
+select comp 'tigReg'
+	#comp "tigReg",  site "SLICE_X32Y1",  type = SLICEL  (RPM grid X89Y2)
+	#9
+setattr main refcomp tigReg
+	#Reference component has been set to "tigReg".
+	#10
+unselect -all
+	#11
+save
+	#   "apufClassic_64_hm" is an NCD, version 3.2, device xc7a100t, package csg324, speed -3
+	#12
+save
+	#13
+save
+	#14
+unselect -all
+	#15
+unselect -all
+	#16
+select comp 'SWITCH_CHAIN/STAGE[63].SW/pathB'
+	#comp "SWITCH_CHAIN/STAGE[63].SW/pathB",  site "SLICE_X32Y65",  type = SLICEL  (RPM grid X89Y130)
+	#17
+unselect -all
+	#18
+select net 'pathB'
+	#net "pathB"
+	#19
+unselect -all
+	#20
+unselect -all
+	#21
+select pin 'SLICE_X31Y66.BQ'
+	#site.pin = SLICE_X31Y66.BQ, comp.pin = ARBITER/dout.BQ, hard macro.pin = respBit, delay = unrouted on net "ARBITER/dout"
+	#22
+unselect -all
+	#23
+select pin 'SLICE_X31Y66.A'
+	#site.pin = SLICE_X31Y66.A, comp.pin = ARBITER/dout.A, hard macro.pin = respReady, delay = unrouted on net "respReady_OBUF"
+	#24
+unselect -all
+	#25
+select pin 'SLICE_X31Y66.A'
+	#site.pin = SLICE_X31Y66.A, comp.pin = ARBITER/dout.A, hard macro.pin = respReady, delay = unrouted on net "respReady_OBUF"
+	#26
+unselect -all
+	#27
+select comp 'ARBITER/dout'
+	#comp "ARBITER/dout",  site "SLICE_X31Y66",  type = SLICEL  (RPM grid X87Y132)
+	#28
+unselect -all
+	#29
+unselect -all
+	#30
+select pin 'SLICE_X31Y66.A'

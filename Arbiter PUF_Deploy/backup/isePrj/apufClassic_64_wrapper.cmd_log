@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "F:/RESEARCH/vlsid_2015/APUF_Cliassic/MacroDesign/isePrj_64/apufClassic_64_wrapper.xst" -ofn "F:/RESEARCH/vlsid_2015/APUF_Cliassic/MacroDesign/isePrj_64/apufClassic_64_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../src/verilog/myLibrary -nt timestamp -i -p xc7a100t-csg324-3 apufClassic_64_wrapper.ngc apufClassic_64_wrapper.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o apufClassic_64_wrapper_map.ncd apufClassic_64_wrapper.ngd apufClassic_64_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off apufClassic_64_wrapper_map.ncd apufClassic_64_wrapper.ncd apufClassic_64_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml apufClassic_64_wrapper.twx apufClassic_64_wrapper.ncd -o apufClassic_64_wrapper.twr apufClassic_64_wrapper.pcf 
+xst -intstyle ise -ifn "F:/RESEARCH/vlsid_2015/APUF_Cliassic/MacroDesign/APUF_Classic_64/isePrj_64/apufClassic_64_wrapper.xst" -ofn "F:/RESEARCH/vlsid_2015/APUF_Cliassic/MacroDesign/APUF_Classic_64/isePrj_64/apufClassic_64_wrapper.syr" 

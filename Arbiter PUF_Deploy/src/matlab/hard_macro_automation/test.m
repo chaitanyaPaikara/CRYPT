@@ -1,0 +1,1 @@
+genAddExternalPinScript('apuf_40bit_cross_sw_for_hm.log','addExternalPin.scr');

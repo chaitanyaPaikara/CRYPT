@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\trapnext\Arbiter PUF_Deploy\isePrj\Dummy.ncd
+OUTFILE=E:\trapnext\Arbiter PUF_Deploy\isePrj\Dummy.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=E:\trapnext\Arbiter PUF_Deploy\isePrj
+LICENSE=ISE
+USER_INFO=210760834_1777492724_210561691_408

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Chaitanya Paikara/Desktop/Arbiter PUF_Deploy/isePrj/APUFClassic_128_wrapper_isim_beh.exe" -prj "C:/Users/Chaitanya Paikara/Desktop/Arbiter PUF_Deploy/isePrj/APUFClassic_128_wrapper_beh.prj" "work.APUFClassic_128_wrapper" "work.glbl" 

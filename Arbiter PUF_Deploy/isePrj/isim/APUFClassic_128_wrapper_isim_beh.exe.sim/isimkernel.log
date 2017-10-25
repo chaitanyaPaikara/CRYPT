@@ -1,0 +1,28 @@
+Command line:
+   APUFClassic_128_wrapper_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49657
+
+Thu Aug 31 23:17:54 2017
+
+
+ Elaboration Time: 0.265625 sec
+
+ Current Memory Usage: 869.933 Meg
+
+ Total Signals          : 3577
+ Total Nets             : 3586
+ Total Signal Drivers   : 1430
+ Total Blocks           : 913
+ Total Primitive Blocks : 580
+ Total Processes        : 2205
+ Total Traceable Variables  : 3190
+ Total Scalar Nets and Variables : 201348
+
+ Total Simulation Time: 0.28125 sec
+
+ Current Memory Usage: 869.933 Meg
+
+Thu Aug 31 23:18:03 2017
+

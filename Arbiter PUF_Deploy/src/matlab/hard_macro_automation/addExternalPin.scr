@@ -1,0 +1,673 @@
+#Matlab generated fpga_editor script
+
+# Change the edit mode
+setattr main edit_mode read-write
+
+select pin SLICE_X32Y1.CLK 
+add extpin clk 
+unpost pin SLICE_X32Y1.CLK 
+unselect pin SLICE_X32Y1.CLK
+
+select pin SLICE_X33Y1.B6 
+add extpin tigSignal 
+unpost pin SLICE_X33Y1.B6 
+unselect pin SLICE_X33Y1.B6
+
+select pin SLICE_X32Y1.AX 
+add extpin vcc 
+unpost pin SLICE_X32Y1.AX 
+unselect pin SLICE_X32Y1.AX
+
+select pin SLICE_X32Y2.A2 
+add extpin cT<0> 
+unpost pin SLICE_X32Y2.A2 
+unselect pin SLICE_X32Y2.A2
+
+select pin SLICE_X32Y2.B1 
+add extpin cB<0> 
+unpost pin SLICE_X32Y2.B1 
+unselect pin SLICE_X32Y2.B1
+
+select pin SLICE_X32Y3.A6 
+add extpin cT<1> 
+unpost pin SLICE_X32Y3.A6 
+unselect pin SLICE_X32Y3.A6
+
+select pin SLICE_X32Y3.B6 
+add extpin cB<1> 
+unpost pin SLICE_X32Y3.B6 
+unselect pin SLICE_X32Y3.B6
+
+select pin SLICE_X32Y4.A6 
+add extpin cT<2> 
+unpost pin SLICE_X32Y4.A6 
+unselect pin SLICE_X32Y4.A6
+
+select pin SLICE_X32Y4.B1 
+add extpin cB<2> 
+unpost pin SLICE_X32Y4.B1 
+unselect pin SLICE_X32Y4.B1
+
+select pin SLICE_X32Y5.A1 
+add extpin cT<3> 
+unpost pin SLICE_X32Y5.A1 
+unselect pin SLICE_X32Y5.A1
+
+select pin SLICE_X32Y5.B1 
+add extpin cB<3> 
+unpost pin SLICE_X32Y5.B1 
+unselect pin SLICE_X32Y5.B1
+
+select pin SLICE_X32Y6.A1 
+add extpin cT<4> 
+unpost pin SLICE_X32Y6.A1 
+unselect pin SLICE_X32Y6.A1
+
+select pin SLICE_X32Y6.B6 
+add extpin cB<4> 
+unpost pin SLICE_X32Y6.B6 
+unselect pin SLICE_X32Y6.B6
+
+select pin SLICE_X32Y7.A5 
+add extpin cT<5> 
+unpost pin SLICE_X32Y7.A5 
+unselect pin SLICE_X32Y7.A5
+
+select pin SLICE_X32Y7.B1 
+add extpin cB<5> 
+unpost pin SLICE_X32Y7.B1 
+unselect pin SLICE_X32Y7.B1
+
+select pin SLICE_X32Y8.A6 
+add extpin cT<6> 
+unpost pin SLICE_X32Y8.A6 
+unselect pin SLICE_X32Y8.A6
+
+select pin SLICE_X32Y8.B1 
+add extpin cB<6> 
+unpost pin SLICE_X32Y8.B1 
+unselect pin SLICE_X32Y8.B1
+
+select pin SLICE_X32Y9.A6 
+add extpin cT<7> 
+unpost pin SLICE_X32Y9.A6 
+unselect pin SLICE_X32Y9.A6
+
+select pin SLICE_X32Y9.B1 
+add extpin cB<7> 
+unpost pin SLICE_X32Y9.B1 
+unselect pin SLICE_X32Y9.B1
+
+select pin SLICE_X32Y10.A5 
+add extpin cT<8> 
+unpost pin SLICE_X32Y10.A5 
+unselect pin SLICE_X32Y10.A5
+
+select pin SLICE_X32Y10.B1 
+add extpin cB<8> 
+unpost pin SLICE_X32Y10.B1 
+unselect pin SLICE_X32Y10.B1
+
+select pin SLICE_X32Y11.A1 
+add extpin cT<9> 
+unpost pin SLICE_X32Y11.A1 
+unselect pin SLICE_X32Y11.A1
+
+select pin SLICE_X32Y11.B1 
+add extpin cB<9> 
+unpost pin SLICE_X32Y11.B1 
+unselect pin SLICE_X32Y11.B1
+
+select pin SLICE_X32Y12.A6 
+add extpin cT<10> 
+unpost pin SLICE_X32Y12.A6 
+unselect pin SLICE_X32Y12.A6
+
+select pin SLICE_X32Y12.B6 
+add extpin cB<10> 
+unpost pin SLICE_X32Y12.B6 
+unselect pin SLICE_X32Y12.B6
+
+select pin SLICE_X32Y13.A5 
+add extpin cT<11> 
+unpost pin SLICE_X32Y13.A5 
+unselect pin SLICE_X32Y13.A5
+
+select pin SLICE_X32Y13.B1 
+add extpin cB<11> 
+unpost pin SLICE_X32Y13.B1 
+unselect pin SLICE_X32Y13.B1
+
+select pin SLICE_X32Y14.A1 
+add extpin cT<12> 
+unpost pin SLICE_X32Y14.A1 
+unselect pin SLICE_X32Y14.A1
+
+select pin SLICE_X32Y14.B1 
+add extpin cB<12> 
+unpost pin SLICE_X32Y14.B1 
+unselect pin SLICE_X32Y14.B1
+
+select pin SLICE_X32Y15.A6 
+add extpin cT<13> 
+unpost pin SLICE_X32Y15.A6 
+unselect pin SLICE_X32Y15.A6
+
+select pin SLICE_X32Y15.B6 
+add extpin cB<13> 
+unpost pin SLICE_X32Y15.B6 
+unselect pin SLICE_X32Y15.B6
+
+select pin SLICE_X32Y16.A5 
+add extpin cT<14> 
+unpost pin SLICE_X32Y16.A5 
+unselect pin SLICE_X32Y16.A5
+
+select pin SLICE_X32Y16.B6 
+add extpin cB<14> 
+unpost pin SLICE_X32Y16.B6 
+unselect pin SLICE_X32Y16.B6
+
+select pin SLICE_X32Y17.A1 
+add extpin cT<15> 
+unpost pin SLICE_X32Y17.A1 
+unselect pin SLICE_X32Y17.A1
+
+select pin SLICE_X32Y17.B1 
+add extpin cB<15> 
+unpost pin SLICE_X32Y17.B1 
+unselect pin SLICE_X32Y17.B1
+
+select pin SLICE_X32Y18.A6 
+add extpin cT<16> 
+unpost pin SLICE_X32Y18.A6 
+unselect pin SLICE_X32Y18.A6
+
+select pin SLICE_X32Y18.B5 
+add extpin cB<16> 
+unpost pin SLICE_X32Y18.B5 
+unselect pin SLICE_X32Y18.B5
+
+select pin SLICE_X32Y19.A1 
+add extpin cT<17> 
+unpost pin SLICE_X32Y19.A1 
+unselect pin SLICE_X32Y19.A1
+
+select pin SLICE_X32Y19.B1 
+add extpin cB<17> 
+unpost pin SLICE_X32Y19.B1 
+unselect pin SLICE_X32Y19.B1
+
+select pin SLICE_X32Y20.A1 
+add extpin cT<18> 
+unpost pin SLICE_X32Y20.A1 
+unselect pin SLICE_X32Y20.A1
+
+select pin SLICE_X32Y20.B1 
+add extpin cB<18> 
+unpost pin SLICE_X32Y20.B1 
+unselect pin SLICE_X32Y20.B1
+
+select pin SLICE_X32Y21.A3 
+add extpin cT<19> 
+unpost pin SLICE_X32Y21.A3 
+unselect pin SLICE_X32Y21.A3
+
+select pin SLICE_X32Y21.B1 
+add extpin cB<19> 
+unpost pin SLICE_X32Y21.B1 
+unselect pin SLICE_X32Y21.B1
+
+select pin SLICE_X32Y22.A3 
+add extpin cT<20> 
+unpost pin SLICE_X32Y22.A3 
+unselect pin SLICE_X32Y22.A3
+
+select pin SLICE_X32Y22.B1 
+add extpin cB<20> 
+unpost pin SLICE_X32Y22.B1 
+unselect pin SLICE_X32Y22.B1
+
+select pin SLICE_X32Y23.A6 
+add extpin cT<21> 
+unpost pin SLICE_X32Y23.A6 
+unselect pin SLICE_X32Y23.A6
+
+select pin SLICE_X32Y23.B6 
+add extpin cB<21> 
+unpost pin SLICE_X32Y23.B6 
+unselect pin SLICE_X32Y23.B6
+
+select pin SLICE_X32Y24.A1 
+add extpin cT<22> 
+unpost pin SLICE_X32Y24.A1 
+unselect pin SLICE_X32Y24.A1
+
+select pin SLICE_X32Y24.B1 
+add extpin cB<22> 
+unpost pin SLICE_X32Y24.B1 
+unselect pin SLICE_X32Y24.B1
+
+select pin SLICE_X32Y25.A3 
+add extpin cT<23> 
+unpost pin SLICE_X32Y25.A3 
+unselect pin SLICE_X32Y25.A3
+
+select pin SLICE_X32Y25.B1 
+add extpin cB<23> 
+unpost pin SLICE_X32Y25.B1 
+unselect pin SLICE_X32Y25.B1
+
+select pin SLICE_X32Y26.A1 
+add extpin cT<24> 
+unpost pin SLICE_X32Y26.A1 
+unselect pin SLICE_X32Y26.A1
+
+select pin SLICE_X32Y26.B1 
+add extpin cB<24> 
+unpost pin SLICE_X32Y26.B1 
+unselect pin SLICE_X32Y26.B1
+
+select pin SLICE_X32Y27.A3 
+add extpin cT<25> 
+unpost pin SLICE_X32Y27.A3 
+unselect pin SLICE_X32Y27.A3
+
+select pin SLICE_X32Y27.B6 
+add extpin cB<25> 
+unpost pin SLICE_X32Y27.B6 
+unselect pin SLICE_X32Y27.B6
+
+select pin SLICE_X32Y28.A1 
+add extpin cT<26> 
+unpost pin SLICE_X32Y28.A1 
+unselect pin SLICE_X32Y28.A1
+
+select pin SLICE_X32Y28.B3 
+add extpin cB<26> 
+unpost pin SLICE_X32Y28.B3 
+unselect pin SLICE_X32Y28.B3
+
+select pin SLICE_X32Y29.A6 
+add extpin cT<27> 
+unpost pin SLICE_X32Y29.A6 
+unselect pin SLICE_X32Y29.A6
+
+select pin SLICE_X32Y29.B6 
+add extpin cB<27> 
+unpost pin SLICE_X32Y29.B6 
+unselect pin SLICE_X32Y29.B6
+
+select pin SLICE_X32Y30.A3 
+add extpin cT<28> 
+unpost pin SLICE_X32Y30.A3 
+unselect pin SLICE_X32Y30.A3
+
+select pin SLICE_X32Y30.B6 
+add extpin cB<28> 
+unpost pin SLICE_X32Y30.B6 
+unselect pin SLICE_X32Y30.B6
+
+select pin SLICE_X32Y31.A1 
+add extpin cT<29> 
+unpost pin SLICE_X32Y31.A1 
+unselect pin SLICE_X32Y31.A1
+
+select pin SLICE_X32Y31.B1 
+add extpin cB<29> 
+unpost pin SLICE_X32Y31.B1 
+unselect pin SLICE_X32Y31.B1
+
+select pin SLICE_X32Y32.A3 
+add extpin cT<30> 
+unpost pin SLICE_X32Y32.A3 
+unselect pin SLICE_X32Y32.A3
+
+select pin SLICE_X32Y32.B6 
+add extpin cB<30> 
+unpost pin SLICE_X32Y32.B6 
+unselect pin SLICE_X32Y32.B6
+
+select pin SLICE_X32Y33.A1 
+add extpin cT<31> 
+unpost pin SLICE_X32Y33.A1 
+unselect pin SLICE_X32Y33.A1
+
+select pin SLICE_X32Y33.B6 
+add extpin cB<31> 
+unpost pin SLICE_X32Y33.B6 
+unselect pin SLICE_X32Y33.B6
+
+select pin SLICE_X32Y34.A1 
+add extpin cT<32> 
+unpost pin SLICE_X32Y34.A1 
+unselect pin SLICE_X32Y34.A1
+
+select pin SLICE_X32Y34.B6 
+add extpin cB<32> 
+unpost pin SLICE_X32Y34.B6 
+unselect pin SLICE_X32Y34.B6
+
+select pin SLICE_X32Y35.A3 
+add extpin cT<33> 
+unpost pin SLICE_X32Y35.A3 
+unselect pin SLICE_X32Y35.A3
+
+select pin SLICE_X32Y35.B6 
+add extpin cB<33> 
+unpost pin SLICE_X32Y35.B6 
+unselect pin SLICE_X32Y35.B6
+
+select pin SLICE_X32Y36.A3 
+add extpin cT<34> 
+unpost pin SLICE_X32Y36.A3 
+unselect pin SLICE_X32Y36.A3
+
+select pin SLICE_X32Y36.B6 
+add extpin cB<34> 
+unpost pin SLICE_X32Y36.B6 
+unselect pin SLICE_X32Y36.B6
+
+select pin SLICE_X32Y37.A6 
+add extpin cT<35> 
+unpost pin SLICE_X32Y37.A6 
+unselect pin SLICE_X32Y37.A6
+
+select pin SLICE_X32Y37.B6 
+add extpin cB<35> 
+unpost pin SLICE_X32Y37.B6 
+unselect pin SLICE_X32Y37.B6
+
+select pin SLICE_X32Y38.A5 
+add extpin cT<36> 
+unpost pin SLICE_X32Y38.A5 
+unselect pin SLICE_X32Y38.A5
+
+select pin SLICE_X32Y38.B6 
+add extpin cB<36> 
+unpost pin SLICE_X32Y38.B6 
+unselect pin SLICE_X32Y38.B6
+
+select pin SLICE_X32Y39.A3 
+add extpin cT<37> 
+unpost pin SLICE_X32Y39.A3 
+unselect pin SLICE_X32Y39.A3
+
+select pin SLICE_X32Y39.B6 
+add extpin cB<37> 
+unpost pin SLICE_X32Y39.B6 
+unselect pin SLICE_X32Y39.B6
+
+select pin SLICE_X32Y40.A6 
+add extpin cT<38> 
+unpost pin SLICE_X32Y40.A6 
+unselect pin SLICE_X32Y40.A6
+
+select pin SLICE_X32Y40.B2 
+add extpin cB<38> 
+unpost pin SLICE_X32Y40.B2 
+unselect pin SLICE_X32Y40.B2
+
+select pin SLICE_X32Y41.A3 
+add extpin cT<39> 
+unpost pin SLICE_X32Y41.A3 
+unselect pin SLICE_X32Y41.A3
+
+select pin SLICE_X32Y41.B6 
+add extpin cB<39> 
+unpost pin SLICE_X32Y41.B6 
+unselect pin SLICE_X32Y41.B6
+
+select pin SLICE_X32Y42.A1 
+add extpin cT<40> 
+unpost pin SLICE_X32Y42.A1 
+unselect pin SLICE_X32Y42.A1
+
+select pin SLICE_X32Y42.B6 
+add extpin cB<40> 
+unpost pin SLICE_X32Y42.B6 
+unselect pin SLICE_X32Y42.B6
+
+select pin SLICE_X32Y43.A6 
+add extpin cT<41> 
+unpost pin SLICE_X32Y43.A6 
+unselect pin SLICE_X32Y43.A6
+
+select pin SLICE_X32Y43.B5 
+add extpin cB<41> 
+unpost pin SLICE_X32Y43.B5 
+unselect pin SLICE_X32Y43.B5
+
+select pin SLICE_X32Y44.A3 
+add extpin cT<42> 
+unpost pin SLICE_X32Y44.A3 
+unselect pin SLICE_X32Y44.A3
+
+select pin SLICE_X32Y44.B3 
+add extpin cB<42> 
+unpost pin SLICE_X32Y44.B3 
+unselect pin SLICE_X32Y44.B3
+
+select pin SLICE_X32Y45.A3 
+add extpin cT<43> 
+unpost pin SLICE_X32Y45.A3 
+unselect pin SLICE_X32Y45.A3
+
+select pin SLICE_X32Y45.B5 
+add extpin cB<43> 
+unpost pin SLICE_X32Y45.B5 
+unselect pin SLICE_X32Y45.B5
+
+select pin SLICE_X32Y46.A6 
+add extpin cT<44> 
+unpost pin SLICE_X32Y46.A6 
+unselect pin SLICE_X32Y46.A6
+
+select pin SLICE_X32Y46.B6 
+add extpin cB<44> 
+unpost pin SLICE_X32Y46.B6 
+unselect pin SLICE_X32Y46.B6
+
+select pin SLICE_X32Y47.A5 
+add extpin cT<45> 
+unpost pin SLICE_X32Y47.A5 
+unselect pin SLICE_X32Y47.A5
+
+select pin SLICE_X32Y47.B1 
+add extpin cB<45> 
+unpost pin SLICE_X32Y47.B1 
+unselect pin SLICE_X32Y47.B1
+
+select pin SLICE_X32Y48.A3 
+add extpin cT<46> 
+unpost pin SLICE_X32Y48.A3 
+unselect pin SLICE_X32Y48.A3
+
+select pin SLICE_X32Y48.B1 
+add extpin cB<46> 
+unpost pin SLICE_X32Y48.B1 
+unselect pin SLICE_X32Y48.B1
+
+select pin SLICE_X32Y49.A1 
+add extpin cT<47> 
+unpost pin SLICE_X32Y49.A1 
+unselect pin SLICE_X32Y49.A1
+
+select pin SLICE_X32Y49.B2 
+add extpin cB<47> 
+unpost pin SLICE_X32Y49.B2 
+unselect pin SLICE_X32Y49.B2
+
+select pin SLICE_X32Y50.A3 
+add extpin cT<48> 
+unpost pin SLICE_X32Y50.A3 
+unselect pin SLICE_X32Y50.A3
+
+select pin SLICE_X32Y50.B1 
+add extpin cB<48> 
+unpost pin SLICE_X32Y50.B1 
+unselect pin SLICE_X32Y50.B1
+
+select pin SLICE_X32Y51.A3 
+add extpin cT<49> 
+unpost pin SLICE_X32Y51.A3 
+unselect pin SLICE_X32Y51.A3
+
+select pin SLICE_X32Y51.B6 
+add extpin cB<49> 
+unpost pin SLICE_X32Y51.B6 
+unselect pin SLICE_X32Y51.B6
+
+select pin SLICE_X32Y52.A6 
+add extpin cT<50> 
+unpost pin SLICE_X32Y52.A6 
+unselect pin SLICE_X32Y52.A6
+
+select pin SLICE_X32Y52.B6 
+add extpin cB<50> 
+unpost pin SLICE_X32Y52.B6 
+unselect pin SLICE_X32Y52.B6
+
+select pin SLICE_X32Y53.A1 
+add extpin cT<51> 
+unpost pin SLICE_X32Y53.A1 
+unselect pin SLICE_X32Y53.A1
+
+select pin SLICE_X32Y53.B6 
+add extpin cB<51> 
+unpost pin SLICE_X32Y53.B6 
+unselect pin SLICE_X32Y53.B6
+
+select pin SLICE_X32Y54.A3 
+add extpin cT<52> 
+unpost pin SLICE_X32Y54.A3 
+unselect pin SLICE_X32Y54.A3
+
+select pin SLICE_X32Y54.B6 
+add extpin cB<52> 
+unpost pin SLICE_X32Y54.B6 
+unselect pin SLICE_X32Y54.B6
+
+select pin SLICE_X32Y55.A1 
+add extpin cT<53> 
+unpost pin SLICE_X32Y55.A1 
+unselect pin SLICE_X32Y55.A1
+
+select pin SLICE_X32Y55.B3 
+add extpin cB<53> 
+unpost pin SLICE_X32Y55.B3 
+unselect pin SLICE_X32Y55.B3
+
+select pin SLICE_X32Y56.A5 
+add extpin cT<54> 
+unpost pin SLICE_X32Y56.A5 
+unselect pin SLICE_X32Y56.A5
+
+select pin SLICE_X32Y56.B5 
+add extpin cB<54> 
+unpost pin SLICE_X32Y56.B5 
+unselect pin SLICE_X32Y56.B5
+
+select pin SLICE_X32Y57.A1 
+add extpin cT<55> 
+unpost pin SLICE_X32Y57.A1 
+unselect pin SLICE_X32Y57.A1
+
+select pin SLICE_X32Y57.B1 
+add extpin cB<55> 
+unpost pin SLICE_X32Y57.B1 
+unselect pin SLICE_X32Y57.B1
+
+select pin SLICE_X32Y58.A6 
+add extpin cT<56> 
+unpost pin SLICE_X32Y58.A6 
+unselect pin SLICE_X32Y58.A6
+
+select pin SLICE_X32Y58.B3 
+add extpin cB<56> 
+unpost pin SLICE_X32Y58.B3 
+unselect pin SLICE_X32Y58.B3
+
+select pin SLICE_X32Y59.A5 
+add extpin cT<57> 
+unpost pin SLICE_X32Y59.A5 
+unselect pin SLICE_X32Y59.A5
+
+select pin SLICE_X32Y59.B1 
+add extpin cB<57> 
+unpost pin SLICE_X32Y59.B1 
+unselect pin SLICE_X32Y59.B1
+
+select pin SLICE_X32Y60.A1 
+add extpin cT<58> 
+unpost pin SLICE_X32Y60.A1 
+unselect pin SLICE_X32Y60.A1
+
+select pin SLICE_X32Y60.B3 
+add extpin cB<58> 
+unpost pin SLICE_X32Y60.B3 
+unselect pin SLICE_X32Y60.B3
+
+select pin SLICE_X32Y61.A6 
+add extpin cT<59> 
+unpost pin SLICE_X32Y61.A6 
+unselect pin SLICE_X32Y61.A6
+
+select pin SLICE_X32Y61.B1 
+add extpin cB<59> 
+unpost pin SLICE_X32Y61.B1 
+unselect pin SLICE_X32Y61.B1
+
+select pin SLICE_X32Y62.A3 
+add extpin cT<60> 
+unpost pin SLICE_X32Y62.A3 
+unselect pin SLICE_X32Y62.A3
+
+select pin SLICE_X32Y62.B6 
+add extpin cB<60> 
+unpost pin SLICE_X32Y62.B6 
+unselect pin SLICE_X32Y62.B6
+
+select pin SLICE_X32Y63.A4 
+add extpin cT<61> 
+unpost pin SLICE_X32Y63.A4 
+unselect pin SLICE_X32Y63.A4
+
+select pin SLICE_X32Y63.B3 
+add extpin cB<61> 
+unpost pin SLICE_X32Y63.B3 
+unselect pin SLICE_X32Y63.B3
+
+select pin SLICE_X32Y64.A1 
+add extpin cT<62> 
+unpost pin SLICE_X32Y64.A1 
+unselect pin SLICE_X32Y64.A1
+
+select pin SLICE_X32Y64.B1 
+add extpin cB<62> 
+unpost pin SLICE_X32Y64.B1 
+unselect pin SLICE_X32Y64.B1
+
+select pin SLICE_X32Y65.A5 
+add extpin cT<63> 
+unpost pin SLICE_X32Y65.A5 
+unselect pin SLICE_X32Y65.A5
+
+select pin SLICE_X32Y65.B1 
+add extpin cB<63> 
+unpost pin SLICE_X32Y65.B1 
+unselect pin SLICE_X32Y65.B1
+
+select pin SLICE_X31Y66.BQ 
+add extpin respBit 
+unpost pin SLICE_X31Y66.BQ 
+unselect pin SLICE_X31Y66.BQ
+
+select pin SLICE_X31Y66.A 
+add extpin respReady 
+unpost pin SLICE_X31Y66.A 
+unselect pin SLICE_X31Y66.A
+
+save 
+quit! 
+quit

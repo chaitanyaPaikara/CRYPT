@@ -1,0 +1,7 @@
+################################################
+# Nexys-4 Board
+################################################
+
+NET "clk"   LOC = "E3"	| IOSTANDARD = "LVCMOS33";  // 100 MHz
+NET "rx"		LOC = "C4"	| IOSTANDARD = "LVCMOS33";		
+NET "tx"		LOC = "D4"	| IOSTANDARD = "LVCMOS33";	

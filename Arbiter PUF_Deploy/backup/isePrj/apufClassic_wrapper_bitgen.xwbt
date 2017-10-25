@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\RESEARCH\vlsid_2015\APUF_Cliassic\MacroDesign\isePrj\apufClassic_wrapper.ncd
+OUTFILE=F:\RESEARCH\vlsid_2015\APUF_Cliassic\MacroDesign\isePrj\apufClassic_wrapper.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=F:\RESEARCH\vlsid_2015\APUF_Cliassic\MacroDesign\isePrj
+LICENSE=ISE
+USER_INFO=210890887_1777499834_210579961_029

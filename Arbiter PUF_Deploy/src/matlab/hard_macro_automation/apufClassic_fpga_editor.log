@@ -1,0 +1,178 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.20131013
+#Current Working Directory:
+#:D   F:\RESEARCH\vlsid_2015\APUF_Cliassic\MacroDesign\src\matlab\hard_macro_automation
+#Date/Time:
+#:T   Thu Dec 25 03:13:06 2014
+#------------------------------
+	#Reading apufClassic.ncd...
+	#Loading device for application Rf_Device from file '7a100t.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+	#   "apufClassic" is an NCD, version 3.2, device xc7a100t, package csg324, speed -3
+	#Design creation date: 2014.12.24.21.38.56
+	#WARNING:FPGAEditor:589 - Constraint file not found, or cannot be read.
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+playback saveDesignAsHardMacro.scr
+	## Matlab generated fpga_editor script
+	#
+	## Change the edit mode
+	#setattr main edit_mode read-write
+	#
+	## Select all IO and Clock buffer
+	#unselect -all
+	#select comp "cT<*>"
+	#select comp "cB<*>"
+	#select -k comp 'clk'
+	#select -k comp 'clk_BUFGP/BUFG'
+	#select -k comp 'tigSignal'
+	#select -k comp 'vcc'
+	#select -k comp 'respBit'
+	#select -k comp 'respReady'
+	#
+	## Unplace and delete all selected components
+	#'unplace'
+	#Unplacing selected components and macros...
+	#Unplacing selected components and macros completed.
+	#delete
+	#WARNING:FPGAEditor:170 - Net "cT_14_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_22_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_30_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_15_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_23_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_31_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_16_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_24_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_32_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_40_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_17_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_25_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_33_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_41_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_18_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_26_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_34_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_42_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_50_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_19_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_27_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_35_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_43_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_51_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_28_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_36_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_44_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_52_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_60_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_29_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_37_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_45_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_53_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_61_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_38_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_46_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_54_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_62_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_39_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_47_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_55_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_63_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_48_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_56_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_49_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_57_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_58_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_59_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_0_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_1_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_2_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_3_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_4_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_5_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_6_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_7_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_8_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_9_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_10_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_11_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_12_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_20_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_13_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cT_21_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_8_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_9_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_10_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_11_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_12_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_20_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_13_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_21_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_14_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_22_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_30_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_15_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_23_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_31_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_16_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_24_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_32_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_40_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_17_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_25_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_33_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_41_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_18_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_26_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_34_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_42_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_50_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_19_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_27_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_35_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_43_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_51_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_28_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_36_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_44_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_52_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_60_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_29_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_37_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_45_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_53_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_61_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_38_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_46_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_54_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_62_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_39_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_47_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_55_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_63_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_48_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_56_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_49_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_57_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_58_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_59_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_0_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_1_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_2_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_3_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_4_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_5_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_6_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "cB_7_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "clk_BUFGP/IBUFG" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "clk_BUFGP" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "tigSignal_IBUF" now has no driver pin.
+	#WARNING:FPGAEditor:170 - Net "vcc_IBUF" now has no driver pin.
+	#unselect -all
+	#
+	## Save the design as macro
+	#save -w hm apufClassic_64_hm.nmc
+	#quit!

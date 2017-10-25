@@ -1,0 +1,8 @@
+Release 14.2 Drc P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Tue Oct 17 23:46:25 2017
+
+drc -z APUFClassic_128_wrapper.ncd APUFClassic_128_wrapper.pcf
+
+DRC detected 0 errors and 0 warnings.
