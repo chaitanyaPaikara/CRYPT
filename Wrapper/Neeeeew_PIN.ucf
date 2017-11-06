@@ -1,0 +1,4 @@
+NET "CLK" LOC = B8;
+NET "CLR" LOC = A7;
+NET "RST" LOC = M4;
+NET "OUT_ser" LOC = B9;

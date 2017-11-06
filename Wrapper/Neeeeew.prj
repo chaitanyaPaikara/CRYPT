@@ -1,0 +1,4 @@
+verilog work "Digital_Filter.vf"
+verilog work "transmitter.v"
+verilog work "Sync_Reciver.v"
+verilog work "Neeeeew.v"

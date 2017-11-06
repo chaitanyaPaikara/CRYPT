@@ -1,0 +1,46 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Chaitanya Paikara/Documents/CRYPT/Wrapper/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Chaitanya Paikara/Documents/CRYPT/Wrapper/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "Digital_Filter.vf" in library work
+Module <FJKC_MXILINX_Digital_Filter> compiled
+Compiling verilog file "transmitter.v" in library work
+Module <Digital_Filter> compiled
+Compiling verilog file "Sync_Reciver.v" in library work
+Module <Transmitter_Baud> compiled
+Compiling verilog file "Neeeeew.v" in library work
+Module <Sync_Reciver> compiled
+Compiling verilog file "Neeeeew_TB.v" in library work
+Module <Neeeeew> compiled
+Module <test_usart_test_usart_sch_tb> compiled
+No errors in compilation
+Analysis of file <"test_usart_test_usart_sch_tb.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.26 secs
+ 
+--> 
+
+Total memory usage is 262360 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

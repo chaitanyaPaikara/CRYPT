@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Chaitanya Paikara/Documents/CRYPT/Wrapper/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Chaitanya Paikara/Documents/CRYPT/Wrapper/xst"
+elaborate
+-ifn test_usart_test_usart_sch_tb.prj
+-ifmt mixed

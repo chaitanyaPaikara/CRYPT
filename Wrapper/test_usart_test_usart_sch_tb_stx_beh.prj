@@ -1,0 +1,6 @@
+verilog isim_temp "Digital_Filter.vf"
+verilog isim_temp "transmitter.v"
+verilog isim_temp "Sync_Reciver.v"
+verilog isim_temp "Neeeeew.v"
+verilog isim_temp "Neeeeew_TB.v"
+verilog isim_temp "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/CRYPT/Wrapper/Transmitter_Baud.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/CRYPT/Wrapper/Transmitter_Baud.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Neeeeew_PIN.ucf -p xc5vlx50-ff324-2 "Transmitter_Baud.ngc" Transmitter_Baud.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Neeeeew_PIN.ucf -p xc5vlx50-ff324-2 "Transmitter_Baud.ngc" Transmitter_Baud.ngd  
+map -intstyle ise -p xc5vlx50-ff324-2 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o Transmitter_Baud_map.ncd Transmitter_Baud.ngd Transmitter_Baud.pcf 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/CRYPT/Wrapper/Transmitter_Baud.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/CRYPT/Wrapper/Transmitter_Baud.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Neeeeew_PIN.ucf -p xc3s250e-cp132-5 "Transmitter_Baud.ngc" Transmitter_Baud.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Transmitter_Baud_map.ncd Transmitter_Baud.ngd Transmitter_Baud.pcf 
+par -w -intstyle ise -ol high -t 1 Transmitter_Baud_map.ncd Transmitter_Baud.ncd Transmitter_Baud.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Transmitter_Baud.twx Transmitter_Baud.ncd -o Transmitter_Baud.twr Transmitter_Baud.pcf -ucf Neeeeew_PIN.ucf 
+bitgen -intstyle ise -f Transmitter_Baud.ut Transmitter_Baud.ncd 
