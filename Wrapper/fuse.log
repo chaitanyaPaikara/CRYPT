@@ -30,5 +30,5 @@ Compiling module glbl
 Time Resolution for simulation is 1ps.
 Compiled 16 Verilog Units
 Built simulation executable C:/Users/Chaitanya Paikara/Documents/CRYPT/Wrapper/test_usart_test_usart_sch_tb_isim_beh.exe
-Fuse Memory Usage: 28128 KB
-Fuse CPU Usage: 827 ms
+Fuse Memory Usage: 28896 KB
+Fuse CPU Usage: 452 ms

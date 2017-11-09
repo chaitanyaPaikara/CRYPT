@@ -49,7 +49,7 @@ module Neeeeew(CLK,
 	reg [2:0] counter;//Added
    reg [31:0] Final_Data_R;//Added
 	reg Final_Data_Ready_R;
-	
+	//reg [31:0] Temp_Data;
    wire CLK_B_DUMMY;
    
 	initial counter  = 0;
@@ -67,21 +67,41 @@ module Neeeeew(CLK,
                          .Parity_ERR(parity_err));
    Transmitter_Baud  Transmitter (.CLK(CLK), 
                                   .CLR(CLR), 
-                                  .Data(Data_Tx[31:0]), 
+                                  .Data(Final_Data),//Data_Tx[31:0]), // Do ccheck this statement while simualtion.
                                   .RST(CLR_Rec), 
                                   .CLK_Baud(CLK_B_DUMMY), 
                                   .OUT_ser(Tx));
-											 
+	/*										 
 	always@(posedge Data_Ready)begin
 		if(counter < 4)begin
 			Final_Data_R[(counter*8)+:8] = Data_Rx;
-			//$display("%h",Final_Data_R);
+			//$display("%h",Final_Data_R);(counter*8)
 			counter = counter + 1;
 			Final_Data_Ready_R = 0;
 		if(counter == 4)begin
 			counter = 0;
 			Final_Data_Ready_R = 1;
 			$display("Received Data = %h", Final_Data_R);
+		end
+		end
+	end
+	*/
+	always@(posedge Data_Ready)begin
+		if(counter < 4)begin
+			//Final_Data_R[0+:8] = Data_Rx;
+			//$display("%h",Final_Data_R);(counter*8)
+			case (counter)
+				0:Final_Data_R[0+:8] = Data_Rx;
+				1:Final_Data_R[8+:8] = Data_Rx;
+				2:Final_Data_R[16+:8] = Data_Rx;
+				3:Final_Data_R[24+:8] = Data_Rx;
+			endcase
+			counter = counter + 1;
+			Final_Data_Ready_R = 0;
+		if(counter == 4)begin
+			counter = 0;
+			Final_Data_Ready_R = 1;
+			//$display("Received Data = %h", Final_Data_R);
 		end
 		end
 	end
