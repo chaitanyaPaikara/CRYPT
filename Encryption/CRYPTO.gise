@@ -118,11 +118,6 @@
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Key_scheduler_xst.xrpt"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Keyscheduler_TB_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Keyscheduler_TB_stx_beh.prj"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MUX_BYTE.prj"/>
-    <file xil_pn:fileType="FILE_SPL" xil_pn:name="MUX_BYTE.spl"/>
-    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="MUX_BYTE.stx"/>
-    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="MUX_BYTE.sym" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_XST" xil_pn:name="MUX_BYTE.xst"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Main.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Main.cmd_log"/>
     <file xil_pn:fileType="FILE_JHD" xil_pn:name="Main.jhd"/>
@@ -148,12 +143,6 @@
     </file>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="Main.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Main.xst"/>
-    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Main_2.sym" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="Main_2.vhf">
-      <branch xil_pn:name="Implementation"/>
-      <branch xil_pn:name="BehavioralSim"/>
-    </file>
-    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="Main_2_drc.vhf"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Main_Main_sch_tb_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Main_Main_sch_tb_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Main_Main_sch_tb_isim_beh.wdb"/>
@@ -175,11 +164,6 @@
     <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Main_usage.xml"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Main_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Main_xst.xrpt"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Pres_2.prj"/>
-    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Pres_2.spl"/>
-    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Pres_2.stx"/>
-    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Pres_2.sym" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_XST" xil_pn:name="Pres_2.xst"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Rough.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Rough.cmd_log"/>
     <file xil_pn:fileType="FILE_JHD" xil_pn:name="Rough.jhd"/>
@@ -222,7 +206,6 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Rough_S_LUT.prj"/>
     <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Rough_S_LUT.ptwx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Rough_S_LUT.stx"/>
-    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Rough_S_LUT.sym" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Rough_S_LUT.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Rough_S_LUT.twr" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Rough_S_LUT.twx" xil_pn:subbranch="Par"/>
@@ -309,11 +292,6 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="S_BOX_LUT.unroutes" xil_pn:subbranch="Par"/>
     <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="S_BOX_LUT.vhi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="S_BOX_LUT.xst"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="S_BOX_LUT_2.prj"/>
-    <file xil_pn:fileType="FILE_SPL" xil_pn:name="S_BOX_LUT_2.spl"/>
-    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="S_BOX_LUT_2.stx"/>
-    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="S_BOX_LUT_2.sym" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_XST" xil_pn:name="S_BOX_LUT_2.xst"/>
     <file xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="S_BOX_LUT_DY.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="S_BOX_LUT_DY.cmd_log"/>
     <file xil_pn:fileType="FILE_LSO" xil_pn:name="S_BOX_LUT_DY.lso"/>
@@ -406,37 +384,121 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1504007581" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1504007581">
+    <transform xil_pn:end_ts="1497348242" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1497348242">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1504007771" xil_pn:in_ck="388214121772396444" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-1435700623669012769" xil_pn:start_ts="1504007768">
+    <transform xil_pn:end_ts="1508166272" xil_pn:in_ck="1839254321958138921" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1508166272">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="COUNTER.v"/>
+      <outfile xil_pn:name="Decrypt_TB.v"/>
+      <outfile xil_pn:name="Decrypt_main_TB.v"/>
+      <outfile xil_pn:name="KEY_DECRYPT_TB.v"/>
+      <outfile xil_pn:name="Key_schedule_decrypt.v"/>
+      <outfile xil_pn:name="Key_scheduler.v"/>
+      <outfile xil_pn:name="Keyscheduler_TB.v"/>
+      <outfile xil_pn:name="Rough_TB.v"/>
+      <outfile xil_pn:name="S-BOX.v"/>
+      <outfile xil_pn:name="S_BOX_GF.v"/>
+      <outfile xil_pn:name="S_BOX_LUT.v"/>
+      <outfile xil_pn:name="S_BOX_LUT_2.v"/>
+      <outfile xil_pn:name="S_BOX_LUT_DY.v"/>
+      <outfile xil_pn:name="S_BOX_TB.v"/>
+      <outfile xil_pn:name="XOR_8.v"/>
+      <outfile xil_pn:name="tb.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1502974955" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8651955489422612577" xil_pn:start_ts="1502974955">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1508166277" xil_pn:in_ck="5296973874753274842" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-2209766626871958689" xil_pn:start_ts="1508166275">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Main.vhf"/>
-      <outfile xil_pn:name="Main_2.vhf"/>
       <outfile xil_pn:name="Rough_S_LUT.vhf"/>
     </transform>
-    <transform xil_pn:end_ts="1504007584" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="2474364043531907227" xil_pn:start_ts="1504007584">
+    <transform xil_pn:end_ts="1497348247" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="4841656234966895863" xil_pn:start_ts="1497348247">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1504007584" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1504007584">
+    <transform xil_pn:end_ts="1508166277" xil_pn:in_ck="6344453383754209426" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1508166277">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="COUNTER.v"/>
+      <outfile xil_pn:name="Decrypt.vhf"/>
+      <outfile xil_pn:name="Decrypt_TB.v"/>
+      <outfile xil_pn:name="Decrypt_main.vhf"/>
+      <outfile xil_pn:name="Decrypt_main_TB.v"/>
+      <outfile xil_pn:name="KEY_DECRYPT_TB.v"/>
+      <outfile xil_pn:name="Key_schedule_decrypt.v"/>
+      <outfile xil_pn:name="Key_scheduler.v"/>
+      <outfile xil_pn:name="Keyscheduler_TB.v"/>
+      <outfile xil_pn:name="Main.vhf"/>
+      <outfile xil_pn:name="Rough.vhf"/>
+      <outfile xil_pn:name="Rough_S_LUT.vhf"/>
+      <outfile xil_pn:name="Rough_TB.v"/>
+      <outfile xil_pn:name="S-BOX.v"/>
+      <outfile xil_pn:name="S_BOX_GF.v"/>
+      <outfile xil_pn:name="S_BOX_LUT.v"/>
+      <outfile xil_pn:name="S_BOX_LUT_2.v"/>
+      <outfile xil_pn:name="S_BOX_LUT_DY.v"/>
+      <outfile xil_pn:name="S_BOX_TB.v"/>
+      <outfile xil_pn:name="XOR_8.v"/>
+      <outfile xil_pn:name="tb.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1508166284" xil_pn:in_ck="6344453383754209426" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8982393327156851790" xil_pn:start_ts="1508166277">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Rough_Rough_sch_tb_beh.prj"/>
+      <outfile xil_pn:name="Rough_Rough_sch_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1512120571" xil_pn:in_ck="757287406905227306" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-2405570918783418721" xil_pn:start_ts="1512120571">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Rough_Rough_sch_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1497337219" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1497337219">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1504007584" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-1137259911817240143" xil_pn:start_ts="1504007584">
+    <transform xil_pn:end_ts="1512120639" xil_pn:in_ck="5296973874753274842" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="3521958040231773743" xil_pn:start_ts="1512120637">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Main.vhf"/>
+      <outfile xil_pn:name="Rough_S_LUT.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1497337221" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="4841656234966895863" xil_pn:start_ts="1497337221">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1504007584" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3974906649025205131" xil_pn:start_ts="1504007584">
+    <transform xil_pn:end_ts="1497337221" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1497337221">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1504007584" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="7778105194299736869" xil_pn:start_ts="1504007584">
+    <transform xil_pn:end_ts="1497337221" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-1137259911817240143" xil_pn:start_ts="1497337221">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1504007785" xil_pn:in_ck="-4792733747619243453" xil_pn:name="TRANEXT_xstsynthesize_virtex5" xil_pn:prop_ck="-2525021980523888252" xil_pn:start_ts="1504007771">
+    <transform xil_pn:end_ts="1497337221" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="250970745293037926" xil_pn:start_ts="1497337221">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1497337221" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-4602326526790242111" xil_pn:start_ts="1497337221">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1512120658" xil_pn:in_ck="-1065165059755122309" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="3409302309654851113" xil_pn:start_ts="1512120639">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -463,11 +525,11 @@
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1504007595" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-5856293029031516947" xil_pn:start_ts="1504007595">
+    <transform xil_pn:end_ts="1497337232" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-5856293029031516947" xil_pn:start_ts="1497337232">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1504007795" xil_pn:in_ck="7182048944158446928" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-323246678087209426" xil_pn:start_ts="1504007785">
+    <transform xil_pn:end_ts="1512120794" xil_pn:in_ck="7182048944158446928" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="270582687476561186" xil_pn:start_ts="1512120783">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Rough_S_LUT.bld"/>
@@ -476,7 +538,7 @@
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1504007828" xil_pn:in_ck="-5729197841314952265" xil_pn:name="TRANEXT_map_virtex5" xil_pn:prop_ck="353660684163382354" xil_pn:start_ts="1504007795">
+    <transform xil_pn:end_ts="1512120838" xil_pn:in_ck="-5729197841314952265" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1405206279585514545" xil_pn:start_ts="1512120794">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Rough_S_LUT.pcf"/>
@@ -489,8 +551,9 @@
       <outfile xil_pn:name="Rough_S_LUT_usage.xml"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1504007854" xil_pn:in_ck="-9098569966640382778" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-4687949636421667746" xil_pn:start_ts="1504007828">
+    <transform xil_pn:end_ts="1512120857" xil_pn:in_ck="-9098569966640382778" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-6780099238861732004" xil_pn:start_ts="1512120838">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Rough_S_LUT.ncd"/>
       <outfile xil_pn:name="Rough_S_LUT.pad"/>
@@ -503,7 +566,7 @@
       <outfile xil_pn:name="Rough_S_LUT_par.xrpt"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1504007854" xil_pn:in_ck="1454923059894992539" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1504007845">
+    <transform xil_pn:end_ts="1512120857" xil_pn:in_ck="1454923059894992539" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1512120851">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Rough_S_LUT.twr"/>

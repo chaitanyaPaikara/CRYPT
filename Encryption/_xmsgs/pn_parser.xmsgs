@@ -8,5 +8,26 @@
 <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/CRYPTO/Decrypt_TB.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/CRYPTO/Decrypt_main_TB.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/CRYPTO/KEY_DECRYPT_TB.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/CRYPTO/Keyscheduler_TB.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/CRYPTO/S_BOX_TB.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/CRYPTO/netgen/par/Rough_S_LUT_timesim.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/CRYPTO/tb.v&quot; into library work</arg>
+</msg>
+
 </messages>
 

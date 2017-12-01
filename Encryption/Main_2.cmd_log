@@ -1,5 +1,0 @@
-sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Main_2_drc.vhf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main_2.sch} 
-sch2sym -intstyle ise -family spartan6 -w -refsym Main_2 {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main_2.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main_2.sym} 
-sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Main_2_drc.vhf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main_2.sch} 
-sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Main_2_drc.vhf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main_2.sch} 
-sch2sym -intstyle ise -family spartan6 -w -refsym Main_2 {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main_2.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main_2.sym} 

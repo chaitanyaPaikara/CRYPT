@@ -68,10 +68,8 @@ sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Main_drc.vhf -w {C
 sch2sym -intstyle ise -family spartan3e -w -refsym Main {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sym} 
 sch2sym -intstyle ise -family spartan3e -w -refsym Main {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sym} 
 sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Main_drc.vhf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sch} 
-sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Main_drc.vhf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sch} 
-sch2sym -intstyle ise -family spartan6 -w -refsym Main {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sym} 
-sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Main_drc.vhf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sch} 
-sch2sym -intstyle ise -family spartan6 -w -refsym Main {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sym} 
-sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Main_drc.vhf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sch} 
-sch2sym -intstyle ise -family spartan6 -w -refsym Main {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sym} 
-sch2sym -intstyle ise -family spartan6 -w -refsym Main {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.sym} 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Main_drc.vhf -w {C:/Users/Chaitanya Paikara/Documents/CRYPTO/Main.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Main {C:/Users/Chaitanya Paikara/Documents/CRYPTO/Main.sch} {C:/Users/Chaitanya Paikara/Documents/CRYPTO/Main.sym} 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl Main_drc.vhf -w {C:/Users/Chaitanya Paikara/Documents/CRYPTO/Main.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Main {C:/Users/Chaitanya Paikara/Documents/CRYPTO/Main.sch} {C:/Users/Chaitanya Paikara/Documents/CRYPTO/Main.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Main {C:/Users/Chaitanya Paikara/Documents/CRYPTO/Main.sch} {C:/Users/Chaitanya Paikara/Documents/CRYPTO/Main.sym} 

@@ -33,7 +33,6 @@
         <signal name="K_3(7:0)" />
         <signal name="K_2(7:0)" />
         <signal name="K_1(7:0)" />
-        <signal name="XLXN_42" />
         <port polarity="Input" name="IN_1(7:0)" />
         <port polarity="Input" name="EN" />
         <port polarity="Input" name="CLK" />
@@ -44,9 +43,9 @@
         <port polarity="Output" name="OUT_2(7:0)" />
         <port polarity="Output" name="OUT_3(7:0)" />
         <port polarity="Output" name="OUT_4(7:0)" />
-        <port polarity="Input" name="K_3(7:0)" />
-        <port polarity="Input" name="K_2(7:0)" />
-        <port polarity="Input" name="K_1(7:0)" />
+        <port polarity="Output" name="K_3(7:0)" />
+        <port polarity="Output" name="K_2(7:0)" />
+        <port polarity="Output" name="K_1(7:0)" />
         <blockdef name="xor_8">
             <timestamp>2017-6-4T6:30:5</timestamp>
             <rect width="64" x="320" y="20" height="24" />
@@ -56,6 +55,18 @@
             <rect width="64" x="0" y="-44" height="24" />
             <line x2="0" y1="-32" y2="-32" x1="64" />
             <rect width="256" x="64" y="-128" height="192" />
+        </blockdef>
+        <blockdef name="Key_scheduler">
+            <timestamp>2017-6-13T6:57:44</timestamp>
+            <rect width="64" x="320" y="148" height="24" />
+            <line x2="384" y1="160" y2="160" x1="320" />
+            <line x2="0" y1="32" y2="32" x1="64" />
+            <line x2="0" y1="96" y2="96" x1="64" />
+            <rect width="64" x="320" y="20" height="24" />
+            <line x2="384" y1="32" y2="32" x1="320" />
+            <rect width="64" x="320" y="84" height="24" />
+            <line x2="384" y1="96" y2="96" x1="320" />
+            <rect width="256" x="64" y="-64" height="256" />
         </blockdef>
         <blockdef name="fd8ce">
             <timestamp>2000-1-1T10:10:10</timestamp>
@@ -91,7 +102,7 @@
             <line x2="64" y1="-128" y2="-96" x1="64" />
         </blockdef>
         <blockdef name="S_BOX_LUT">
-            <timestamp>2017-6-13T6:57:53</timestamp>
+            <timestamp>2017-10-16T14:59:57</timestamp>
             <rect width="256" x="64" y="-192" height="192" />
             <line x2="0" y1="-160" y2="-160" x1="64" />
             <line x2="0" y1="-96" y2="-96" x1="64" />
@@ -114,6 +125,13 @@
             <blockpin signalname="IN_4(7:0)" name="IN0(7:0)" />
             <blockpin signalname="XLXN_21(7:0)" name="IN1(7:0)" />
             <blockpin signalname="XLXN_24(7:0)" name="OUTput(7:0)" />
+        </block>
+        <block symbolname="Key_scheduler" name="XLXI_10">
+            <blockpin signalname="CLK" name="CLK" />
+            <blockpin signalname="EN" name="en" />
+            <blockpin signalname="K_1(7:0)" name="K_1(7:0)" />
+            <blockpin signalname="K_2(7:0)" name="K_2(7:0)" />
+            <blockpin signalname="K_3(7:0)" name="K_3(7:0)" />
         </block>
         <block symbolname="xor_8" name="XLXI_11">
             <blockpin signalname="K_3(7:0)" name="IN0(7:0)" />
@@ -313,64 +331,24 @@
         </branch>
         <iomarker fontsize="28" x="3136" y="2288" name="OUT_4(7:0)" orien="R0" />
         <iomarker fontsize="28" x="448" y="96" name="CLK" orien="R270" />
-        <iomarker fontsize="28" x="2768" y="2016" name="K_1(7:0)" orien="R90" />
-        <iomarker fontsize="28" x="2912" y="2016" name="K_2(7:0)" orien="R90" />
-        <instance x="576" y="1152" name="XLXI_23" orien="R0">
-        </instance>
-        <instance x="1504" y="1184" name="XLXI_24" orien="R0">
-        </instance>
-        <instance x="2560" y="1184" name="XLXI_25" orien="R0">
-        </instance>
-        <branch name="IN_2(7:0)">
-            <wire x2="1056" y1="608" y2="624" x1="1056" />
-            <wire x2="1136" y1="624" y2="624" x1="1056" />
-            <wire x2="1136" y1="624" y2="1152" x1="1136" />
-            <wire x2="1136" y1="1152" y2="1200" x1="1136" />
-            <wire x2="1504" y1="1152" y2="1152" x1="1136" />
-        </branch>
-        <branch name="IN_1(7:0)">
-            <wire x2="368" y1="240" y2="1120" x1="368" />
-            <wire x2="576" y1="1120" y2="1120" x1="368" />
-            <wire x2="368" y1="1120" y2="1648" x1="368" />
-            <wire x2="2352" y1="1648" y2="1648" x1="368" />
-            <wire x2="2352" y1="1648" y2="2288" x1="2352" />
-            <wire x2="2720" y1="2288" y2="2288" x1="2352" />
-        </branch>
-        <branch name="K_2(7:0)">
-            <wire x2="2400" y1="1824" y2="1824" x1="1792" />
-            <wire x2="2400" y1="1824" y2="1904" x1="2400" />
-            <wire x2="2912" y1="1904" y2="1904" x1="2400" />
-            <wire x2="2912" y1="1904" y2="2016" x1="2912" />
-        </branch>
-        <branch name="K_1(7:0)">
-            <wire x2="928" y1="1824" y2="1824" x1="864" />
-            <wire x2="928" y1="1824" y2="1920" x1="928" />
-            <wire x2="1888" y1="1920" y2="1920" x1="928" />
-            <wire x2="1888" y1="1920" y2="1968" x1="1888" />
-            <wire x2="2768" y1="1968" y2="1968" x1="1888" />
-            <wire x2="2768" y1="1968" y2="2016" x1="2768" />
-        </branch>
-        <branch name="K_3(7:0)">
-            <wire x2="3136" y1="1824" y2="1824" x1="2880" />
-        </branch>
-        <iomarker fontsize="28" x="3136" y="1824" name="K_3(7:0)" orien="R0" />
         <branch name="CLK">
             <wire x2="160" y1="1056" y2="1344" x1="160" />
             <wire x2="448" y1="1056" y2="1056" x1="160" />
             <wire x2="576" y1="1056" y2="1056" x1="448" />
             <wire x2="448" y1="96" y2="288" x1="448" />
-            <wire x2="448" y1="288" y2="1056" x1="448" />
             <wire x2="1408" y1="288" y2="288" x1="448" />
             <wire x2="1408" y1="288" y2="1088" x1="1408" />
             <wire x2="1504" y1="1088" y2="1088" x1="1408" />
             <wire x2="2512" y1="288" y2="288" x1="1408" />
             <wire x2="2512" y1="288" y2="1088" x1="2512" />
             <wire x2="2560" y1="1088" y2="1088" x1="2512" />
+            <wire x2="3456" y1="288" y2="288" x1="2512" />
+            <wire x2="3456" y1="288" y2="1968" x1="3456" />
+            <wire x2="448" y1="288" y2="1056" x1="448" />
+            <wire x2="3456" y1="1968" y2="1968" x1="3392" />
         </branch>
         <branch name="EN">
-            <wire x2="496" y1="992" y2="992" x1="304" />
-            <wire x2="576" y1="992" y2="992" x1="496" />
-            <wire x2="304" y1="992" y2="1968" x1="304" />
+            <wire x2="304" y1="1584" y2="1968" x1="304" />
             <wire x2="304" y1="1968" y2="2336" x1="304" />
             <wire x2="368" y1="2336" y2="2336" x1="304" />
             <wire x2="1040" y1="1968" y2="1968" x1="304" />
@@ -383,15 +361,72 @@
             <wire x2="2640" y1="2000" y2="2000" x1="1808" />
             <wire x2="2640" y1="2000" y2="2352" x1="2640" />
             <wire x2="2720" y1="2352" y2="2352" x1="2640" />
-            <wire x2="496" y1="208" y2="384" x1="496" />
-            <wire x2="496" y1="384" y2="992" x1="496" />
-            <wire x2="1248" y1="384" y2="384" x1="496" />
-            <wire x2="1248" y1="384" y2="1024" x1="1248" />
-            <wire x2="1504" y1="1024" y2="1024" x1="1248" />
-            <wire x2="2192" y1="384" y2="384" x1="1248" />
-            <wire x2="2192" y1="384" y2="1024" x1="2192" />
-            <wire x2="2560" y1="1024" y2="1024" x1="2192" />
+            <wire x2="512" y1="1584" y2="1584" x1="304" />
+            <wire x2="512" y1="144" y2="224" x1="512" />
+            <wire x2="512" y1="224" y2="992" x1="512" />
+            <wire x2="576" y1="992" y2="992" x1="512" />
+            <wire x2="512" y1="992" y2="1584" x1="512" />
+            <wire x2="1456" y1="224" y2="224" x1="512" />
+            <wire x2="1456" y1="224" y2="1024" x1="1456" />
+            <wire x2="1504" y1="1024" y2="1024" x1="1456" />
+            <wire x2="2544" y1="224" y2="224" x1="1456" />
+            <wire x2="2544" y1="224" y2="1024" x1="2544" />
+            <wire x2="2560" y1="1024" y2="1024" x1="2544" />
+            <wire x2="3472" y1="224" y2="224" x1="2544" />
+            <wire x2="3472" y1="224" y2="1904" x1="3472" />
+            <wire x2="3472" y1="1904" y2="1904" x1="3392" />
         </branch>
-        <iomarker fontsize="28" x="496" y="208" name="EN" orien="R270" />
+        <iomarker fontsize="28" x="512" y="144" name="EN" orien="R270" />
+        <instance x="3392" y="2000" name="XLXI_10" orien="R180">
+        </instance>
+        <branch name="K_3(7:0)">
+            <wire x2="2944" y1="1824" y2="1824" x1="2880" />
+            <wire x2="2944" y1="1824" y2="1840" x1="2944" />
+            <wire x2="3008" y1="1840" y2="1840" x1="2944" />
+            <wire x2="3152" y1="1712" y2="1712" x1="2944" />
+            <wire x2="2944" y1="1712" y2="1824" x1="2944" />
+        </branch>
+        <branch name="K_2(7:0)">
+            <wire x2="2400" y1="1824" y2="1824" x1="1792" />
+            <wire x2="2400" y1="1824" y2="1904" x1="2400" />
+            <wire x2="2912" y1="1904" y2="1904" x1="2400" />
+            <wire x2="3008" y1="1904" y2="1904" x1="2912" />
+            <wire x2="2912" y1="1904" y2="2016" x1="2912" />
+        </branch>
+        <branch name="K_1(7:0)">
+            <wire x2="928" y1="1824" y2="1824" x1="864" />
+            <wire x2="928" y1="1824" y2="1920" x1="928" />
+            <wire x2="1888" y1="1920" y2="1920" x1="928" />
+            <wire x2="1888" y1="1920" y2="1968" x1="1888" />
+            <wire x2="2768" y1="1968" y2="1968" x1="1888" />
+            <wire x2="3008" y1="1968" y2="1968" x1="2768" />
+            <wire x2="2768" y1="1968" y2="2016" x1="2768" />
+        </branch>
+        <iomarker fontsize="28" x="2768" y="2016" name="K_1(7:0)" orien="R90" />
+        <iomarker fontsize="28" x="2912" y="2016" name="K_2(7:0)" orien="R90" />
+        <iomarker fontsize="28" x="3152" y="1712" name="K_3(7:0)" orien="R0" />
+        <instance x="576" y="1152" name="XLXI_23" orien="R0">
+        </instance>
+        <instance x="1504" y="1184" name="XLXI_24" orien="R0">
+        </instance>
+        <instance x="2560" y="1184" name="XLXI_25" orien="R0">
+        </instance>
+        <branch name="IN_2(7:0)">
+            <wire x2="1056" y1="608" y2="624" x1="1056" />
+            <wire x2="1136" y1="624" y2="624" x1="1056" />
+            <wire x2="1136" y1="624" y2="1152" x1="1136" />
+            <wire x2="1136" y1="1152" y2="1200" x1="1136" />
+            <wire x2="1392" y1="1152" y2="1152" x1="1136" />
+            <wire x2="1504" y1="1152" y2="1152" x1="1392" />
+        </branch>
+        <branch name="IN_1(7:0)">
+            <wire x2="368" y1="240" y2="1120" x1="368" />
+            <wire x2="576" y1="1120" y2="1120" x1="368" />
+            <wire x2="368" y1="1120" y2="1184" x1="368" />
+            <wire x2="368" y1="1184" y2="1648" x1="368" />
+            <wire x2="2352" y1="1648" y2="1648" x1="368" />
+            <wire x2="2352" y1="1648" y2="2288" x1="2352" />
+            <wire x2="2720" y1="2288" y2="2288" x1="2352" />
+        </branch>
     </sheet>
 </drawing>

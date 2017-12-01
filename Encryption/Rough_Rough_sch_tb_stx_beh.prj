@@ -1,8 +1,5 @@
 verilog isim_temp "XOR_8.v"
-verilog isim_temp "S_BOX_LUT_2.v"
 verilog isim_temp "S_BOX_LUT.v"
-verilog isim_temp "Pres_2.v"
-verilog isim_temp "MUX_BYTE.v"
 verilog isim_temp "Key_scheduler.v"
 verilog isim_temp "COUNTER.v"
 verilog isim_temp "Rough_TB.v"

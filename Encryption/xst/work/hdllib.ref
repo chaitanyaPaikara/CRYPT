@@ -1,49 +1,36 @@
-MO xor_8 NULL XOR_8.v vlg60/xor__8.bin 1504007773
-AR fd8ce_hxilinx_rough_s_lut behavioral "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_S_LUT.vhf" sub00/vhpl29 1504007781
+MO xor_8 NULL XOR_8.v vlg60/xor__8.bin 1497337136
 AR fd8re_mxilinx_rough behavioral "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough.vhf" sub00/vhpl03 1496813395
-MO S_BOX_LUT_2 NULL S_BOX_LUT_2.v vlg2C/_s___b_o_x___l_u_t__2.bin 1504007773
-AR main behavioral "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.vhf" sub00/vhpl01 1504007791
+AR main behavioral "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.vhf" sub00/vhpl01 1497337151
 EN fd8re_mxilinx_rough NULL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough.vhf" sub00/vhpl02 1496813394
-AR rough_s_lut behavioral "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_S_LUT.vhf" sub00/vhpl17 1504007787
-MO Key_scheduler NULL Key_scheduler.v vlg5F/_key__scheduler.bin 1504007773
-MO COUNTER NULL COUNTER.v vlg30/_c_o_u_n_t_e_r.bin 1504007773
+AR rough_s_lut behavioral "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_S_LUT.vhf" sub00/vhpl17 1497337147
+MO Key_scheduler NULL Key_scheduler.v vlg5F/_key__scheduler.bin 1497337136
+MO COUNTER NULL COUNTER.v vlg30/_c_o_u_n_t_e_r.bin 1497337136
 AR fd8ce_mxilinx_decrypt_main behavioral "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Decrypt_main.vhf" sub00/vhpl19 1497179629
-EN fd8ce_hxilinx_main NULL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.vhf" sub00/vhpl32 1504007788
 MO S_BOX_LUT_DY NULL S_BOX_LUT_DY.v vlg0F/_s___b_o_x___l_u_t___d_y.bin 1497183718
-AR fd8ce_hxilinx_main_2 behavioral "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main_2.vhf" sub00/vhpl35 1504007793
 AR decrypt_main behavioral "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Decrypt_main.vhf" sub00/vhpl23 1497179633
 MO S_BOX NULL S-BOX.v vlg5B/_s___b_o_x.bin 1497179627
-AR main_muser_rough_s_lut behavioral "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_S_LUT.vhf" sub00/vhpl15 1504007785
 EN fd8ce_mxilinx_decrypt_main NULL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Decrypt_main.vhf" sub00/vhpl18 1497179628
-EN rough_s_lut NULL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_S_LUT.vhf" sub00/vhpl16 1504007786
-EN fd8ce_mxilinx_rough NULL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough.vhf" sub00/vhpl08 1504007774
+AR main_muser_rough_s_lut behavioral "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_S_LUT.vhf" sub00/vhpl15 1497337145
+EN rough_s_lut NULL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_S_LUT.vhf" sub00/vhpl16 1497337146
+EN fd8ce_mxilinx_rough NULL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough.vhf" sub00/vhpl08 1497337136
 EN decrypt_muser_decrypt_main NULL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Decrypt_main.vhf" sub00/vhpl20 1497179630
-AR main_2_muser_rough_s_lut behavioral "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_S_LUT.vhf" sub00/vhpl31 1504007783
-EN rough NULL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough.vhf" sub00/vhpl04 1504007778
+EN rough NULL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough.vhf" sub00/vhpl04 1497337140
 AR fd8ce_mxilinx_decrypt behavioral "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Decrypt.vhf" sub00/vhpl25 1497179639
-EN main NULL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.vhf" sub00/vhpl00 1504007790
+EN main NULL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.vhf" sub00/vhpl00 1497337150
 AR fd8ce_mxilinx_rough_s_lut behavioral "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_S_LUT.vhf" sub00/vhpl13 1497337143
-EN fd8ce_hxilinx_main_2 NULL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main_2.vhf" sub00/vhpl34 1504007792
 MO XOR_8 NULL XOR_8.v vlg00/_x_o_r__8.bin 1495804710
-EN main_muser_rough_s_lut NULL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_S_LUT.vhf" sub00/vhpl14 1504007784
-MO Pres_2 NULL Pres_2.v vlg7B/_pres__2.bin 1504007773
+EN main_muser_rough_s_lut NULL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_S_LUT.vhf" sub00/vhpl14 1497337144
 EN decrypt_main NULL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Decrypt_main.vhf" sub00/vhpl22 1497179632
-EN main_2_muser_rough_s_lut NULL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_S_LUT.vhf" sub00/vhpl30 1504007782
 EN fd8ce_mxilinx_main NULL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.vhf" sub00/vhpl06 1497337148
-AR main_2 behavioral "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main_2.vhf" sub00/vhpl37 1504007795
-MO S_BOX_LUT NULL S_BOX_LUT.v vlg77/_s___b_o_x___l_u_t.bin 1504007773
+MO S_BOX_LUT NULL S_BOX_LUT.v vlg77/_s___b_o_x___l_u_t.bin 1497337136
 EN fd8ce_mxilinx_rough_s_lut NULL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_S_LUT.vhf" sub00/vhpl12 1497337142
 AR fd8ce_mxilinx_main behavioral "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.vhf" sub00/vhpl07 1497337149
 AR decrypt behavioral "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Decrypt.vhf" sub00/vhpl27 1497179641
 EN fd8ce_mxilinx_decrypt NULL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Decrypt.vhf" sub00/vhpl24 1497179638
-AR rough behavioral "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough.vhf" sub00/vhpl05 1504007779
+AR rough behavioral "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough.vhf" sub00/vhpl05 1497337141
 EN decrypt NULL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Decrypt.vhf" sub00/vhpl26 1497179640
-AR main_muser_rough behavioral "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough.vhf" sub00/vhpl11 1504007777
-MO MUX_BYTE NULL MUX_BYTE.v vlg01/_m_u_x___b_y_t_e.bin 1504007773
+AR main_muser_rough behavioral "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough.vhf" sub00/vhpl11 1497337139
 AR decrypt_muser_decrypt_main behavioral "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Decrypt_main.vhf" sub00/vhpl21 1497179631
-AR fd8ce_hxilinx_main behavioral "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.vhf" sub00/vhpl33 1504007789
 MO Key_schedule_decrypt NULL Key_schedule_decrypt.v vlg1B/_key__schedule__decrypt.bin 1497179627
-EN main_muser_rough NULL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough.vhf" sub00/vhpl10 1504007776
-AR fd8ce_mxilinx_rough behavioral "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough.vhf" sub00/vhpl09 1504007775
-EN fd8ce_hxilinx_rough_s_lut NULL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_S_LUT.vhf" sub00/vhpl28 1504007780
-EN main_2 NULL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main_2.vhf" sub00/vhpl36 1504007794
+EN main_muser_rough NULL "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough.vhf" sub00/vhpl10 1497337138
+AR fd8ce_mxilinx_rough behavioral "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough.vhf" sub00/vhpl09 1497337137

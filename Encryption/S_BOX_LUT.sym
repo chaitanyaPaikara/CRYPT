@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <symbol version="7" name="S_BOX_LUT">
     <symboltype>BLOCK</symboltype>
-    <timestamp>2017-6-13T6:57:53</timestamp>
+    <timestamp>2017-10-16T14:59:57</timestamp>
     <attr value="S_BOX_LUT" name="VeriModel" />
     <pin polarity="Input" x="0" y="-160" name="en" />
     <pin polarity="Input" x="0" y="-96" name="CLK" />

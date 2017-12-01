@@ -1,30 +1,23 @@
-Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_Rough_sch_tb_isim_beh.exe -prj C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_Rough_sch_tb_beh.prj work.Rough_Rough_sch_tb work.glbl 
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Chaitanya Paikara/Documents/CRYPTO/Rough_Rough_sch_tb_isim_beh.exe -prj C:/Users/Chaitanya Paikara/Documents/CRYPTO/Rough_Rough_sch_tb_beh.prj work.Rough_Rough_sch_tb work.glbl 
 ISim P.28xd (signature 0xa0883be4)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
-Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/XOR_8.v" into library work
-Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S_BOX_LUT_2.v" into library work
-Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/S_BOX_LUT.v" into library work
-Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Pres_2.v" into library work
-Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/MUX_BYTE.v" into library work
-Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Key_scheduler.v" into library work
-Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/COUNTER.v" into library work
-Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_TB.v" into library work
+Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/CRYPTO/XOR_8.v" into library work
+Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/CRYPTO/S_BOX_LUT.v" into library work
+Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/CRYPTO/Key_scheduler.v" into library work
+Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/CRYPTO/COUNTER.v" into library work
+Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/CRYPTO/Rough_TB.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
-Parsing VHDL file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main_2.vhf" into library work
-Parsing VHDL file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Main.vhf" into library work
-Parsing VHDL file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_S_LUT.vhf" into library work
-Parsing VHDL file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough.vhf" into library work
+Parsing VHDL file "C:/Users/Chaitanya Paikara/Documents/CRYPTO/Main.vhf" into library work
+Parsing VHDL file "C:/Users/Chaitanya Paikara/Documents/CRYPTO/Rough_S_LUT.vhf" into library work
+Parsing VHDL file "C:/Users/Chaitanya Paikara/Documents/CRYPTO/Rough.vhf" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling module COUNTER
 Compiling module xor_8
-Compiling module S_BOX_LUT
 Compiling module Key_scheduler
-Compiling module S_BOX_LUT_2
-Compiling module MUX_BYTE
-Compiling module Pres_2
+Compiling module S_BOX_LUT
 Compiling module Rough_Rough_sch_tb
 Compiling module glbl
 Compiling package standard
@@ -36,13 +29,10 @@ Compiling architecture behavioral of entity FD8CE_HXILINX_Rough_S_LUT [fd8ce_hxi
 Compiling architecture inv_v of entity INV [inv_default]
 Compiling architecture gnd_v of entity GND [gnd_default]
 Compiling architecture behavioral of entity Main_MUSER_Rough_S_LUT [main_muser_rough_s_lut_default]
-Compiling architecture behavioral of entity Main_2_MUSER_Rough_S_LUT [main_2_muser_rough_s_lut_default]
-Compiling architecture and2_v of entity AND2 [and2_default]
 Compiling architecture behavioral of entity Rough_S_LUT [rough_s_lut_default]
 Time Resolution for simulation is 1ps.
-Waiting for 5 sub-compilation(s) to finish...
-Compiled 19 VHDL Units
-Compiled 9 Verilog Units
-Built simulation executable C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_Rough_sch_tb_isim_beh.exe
-Fuse Memory Usage: 52748 KB
-Fuse CPU Usage: 3530 ms
+Compiled 15 VHDL Units
+Compiled 6 Verilog Units
+Built simulation executable C:/Users/Chaitanya Paikara/Documents/CRYPTO/Rough_Rough_sch_tb_isim_beh.exe
+Fuse Memory Usage: 53324 KB
+Fuse CPU Usage: 2359 ms

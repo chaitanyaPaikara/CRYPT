@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2017-08-29T17:11:59</DateModified>
+  <DateModified>2017-12-01T14:58:05</DateModified>
   <ModuleName>Rough_S_LUT</ModuleName>
   <SummaryTimeStamp>2017-06-12T20:57:11</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/iseconfig/Rough_S_LUT.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/CRYPTO/iseconfig/Rough_S_LUT.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/CRYPTO\</ImplementationReportsDirectory>
   <DateInitialized>2017-06-12T20:57:48</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

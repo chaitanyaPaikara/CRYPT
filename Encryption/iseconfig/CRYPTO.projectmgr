@@ -8,23 +8,24 @@
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/Decrypt C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|Decrypt.sch</ClosedNode>
+         <ClosedNode>/Decrypt_main C:|Users|Chaitanya Paikara|Documents|CRYPTO|Decrypt_main.sch/XLXI_6 - Decrypt</ClosedNode>
          <ClosedNode>/Decrypt_main C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|Decrypt_main.sch/XLXI_6 - Decrypt</ClosedNode>
+         <ClosedNode>/Decrypt_main C:|Users|Chaitanya Paikara|Documents|GitHub|Xilinx_FPGA|CRYPTO|Decrypt_main.sch</ClosedNode>
          <ClosedNode>/Main C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|Main.sch</ClosedNode>
-         <ClosedNode>/Main_2 C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|Main_2.sch</ClosedNode>
          <ClosedNode>/Rough C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|Rough.sch</ClosedNode>
-         <ClosedNode>/Rough_Rough_sch_tb C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|Rough_TB.v/UUT - Rough_S_LUT</ClosedNode>
+         <ClosedNode>/Rough_Rough_sch_tb C:|Users|Chaitanya Paikara|Documents|CRYPTO|Rough_TB.v/UUT - Rough_S_LUT/XLXI_6 - Main</ClosedNode>
          <ClosedNode>/Rough_Rough_sch_tb C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|Rough_TB.v/UUT - Rough_S_LUT/XLXI_6 - Main</ClosedNode>
-         <ClosedNode>/Rough_Rough_sch_tb C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|Rough_TB.v/UUT - Rough_S_LUT/XLXI_8 - Main_2</ClosedNode>
+         <ClosedNode>/Rough_Rough_sch_tb C:|Users|Chaitanya Paikara|Documents|GitHub|Xilinx_FPGA|CRYPTO|Rough_TB.v/UUT - Rough_S_LUT</ClosedNode>
          <ClosedNode>/Rough_S_LUT C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|Rough_S_LUT.sch/XLXI_6 - Main</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>UUT - Rough_S_LUT (C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_S_LUT.sch)</SelectedItem>
+         <SelectedItem>UUT - Rough_S_LUT (C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/CRYPTO/Rough_S_LUT.sch)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002d7000000020000000000000000000000000200000064ffffffff000000810000000300000002000002d70000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002b0000000020000000000000000000000000200000064ffffffff000000810000000300000002000002b00000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>UUT - Rough_S_LUT (C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_S_LUT.sch)</CurrentItem>
+      <CurrentItem>UUT - Rough_S_LUT (C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/CRYPTO/Rough_S_LUT.sch)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -36,7 +37,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000014d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000014d0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000143000000010000000100000000000000000000000064ffffffff000000810000000000000001000001430000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Design Utilities</CurrentItem>
    </ItemView>
@@ -49,7 +50,7 @@
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000010d000000040101000100000000000000000000000064ffffffff0000008100000000000000040000003d00000001000000000000002100000001000000000000005d0000000100000000000000520000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\CRYPTO\Main.sch</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="Library" >
       <ClosedNodes>
@@ -59,7 +60,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000010c000000010001000100000000000000000000000064ffffffff0000008100000000000000010000010c0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>work</CurrentItem>
    </ItemView>
@@ -67,24 +68,22 @@
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
          <ClosedNode>Configure Target Device</ClosedNode>
-         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
          <ClosedNode>Implement Design/Map</ClosedNode>
          <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
          <ClosedNode>Implement Design/Place &amp; Route/Back-annotate Pin Locations</ClosedNode>
          <ClosedNode>Implement Design/Place &amp; Route/Generate IBIS Model</ClosedNode>
          <ClosedNode>Implement Design/Place &amp; Route/Generate Post-Place &amp; Route Static Timing</ClosedNode>
          <ClosedNode>Implement Design/Translate</ClosedNode>
-         <ClosedNode>Synthesize - XST</ClosedNode>
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Design Summary/Reports</SelectedItem>
+         <SelectedItem>Implement Design</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >4</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000013c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000013c0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000fb000000010000000100000000000000000000000064ffffffff000000810000000000000001000000fb0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Design Summary/Reports</CurrentItem>
+      <CurrentItem>Implement Design</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
@@ -103,42 +102,55 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000014d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000014d0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000010c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000010c0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Create Schematic Symbol</CurrentItem>
    </ItemView>
-   <SourceProcessView>000000ff0000000000000002000000fb0000010a01000000050100000002</SourceProcessView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/COUNT_TB C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|COUNT_TB.v</ClosedNode>
+         <ClosedNode>/Decrypt_Decrypt_sch_tb C:|Users|Chaitanya Paikara|Documents|CRYPTO|Decrypt_TB.v</ClosedNode>
          <ClosedNode>/Decrypt_Decrypt_sch_tb C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|Decrypt_TB.v</ClosedNode>
          <ClosedNode>/Decrypt_Decrypt_sch_tb C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|Decrypt_TB.v/UUT - Decrypt</ClosedNode>
+         <ClosedNode>/Decrypt_Decrypt_sch_tb C:|Users|Chaitanya Paikara|Documents|GitHub|Xilinx_FPGA|CRYPTO|Decrypt_TB.v</ClosedNode>
          <ClosedNode>/Decrypt_main C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|Decrypt_main.sch</ClosedNode>
-         <ClosedNode>/Decrypt_main_Decrypt_main_sch_tb C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|Decrypt_main_TB.v</ClosedNode>
+         <ClosedNode>/Decrypt_main_Decrypt_main_sch_tb C:|Users|Chaitanya Paikara|Documents|CRYPTO|Decrypt_main_TB.v</ClosedNode>
          <ClosedNode>/Decrypt_main_Decrypt_main_sch_tb C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|Decrypt_main_TB.v/UUT - Decrypt_main</ClosedNode>
          <ClosedNode>/Decrypt_main_Decrypt_main_sch_tb C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|Decrypt_main_TB.v/UUT - Decrypt_main/XLXI_6 - Decrypt</ClosedNode>
+         <ClosedNode>/Decrypt_main_Decrypt_main_sch_tb C:|Users|Chaitanya Paikara|Documents|GitHub|Xilinx_FPGA|CRYPTO|Decrypt_main_TB.v</ClosedNode>
+         <ClosedNode>/KEY_DECRYPT_TB C:|Users|Chaitanya Paikara|Documents|CRYPTO|KEY_DECRYPT_TB.v</ClosedNode>
          <ClosedNode>/KEY_DECRYPT_TB C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|KEY_DECRYPT_TB.v</ClosedNode>
+         <ClosedNode>/KEY_DECRYPT_TB C:|Users|Chaitanya Paikara|Documents|GitHub|Xilinx_FPGA|CRYPTO|KEY_DECRYPT_TB.v</ClosedNode>
+         <ClosedNode>/Keyscheduler_TB C:|Users|Chaitanya Paikara|Documents|CRYPTO|Keyscheduler_TB.v</ClosedNode>
          <ClosedNode>/Keyscheduler_TB C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|Keyscheduler_TB.v</ClosedNode>
+         <ClosedNode>/Keyscheduler_TB C:|Users|Chaitanya Paikara|Documents|GitHub|Xilinx_FPGA|CRYPTO|Keyscheduler_TB.v</ClosedNode>
          <ClosedNode>/Main C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|Main.sch</ClosedNode>
          <ClosedNode>/Main_Main_sch_tb C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|M.v/UUT - Main</ClosedNode>
          <ClosedNode>/Rough C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|Rough.sch</ClosedNode>
+         <ClosedNode>/Rough_Rough_sch_tb C:|Users|Chaitanya Paikara|Documents|CRYPTO|Rough_TB.v/UUT - Rough_S_LUT/XLXI_6 - Main</ClosedNode>
          <ClosedNode>/Rough_Rough_sch_tb C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|Rough_TB.v/UUT - Rough/XLXI_6 - Main</ClosedNode>
          <ClosedNode>/Rough_Rough_sch_tb C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|Rough_TB.v/UUT - Rough_S_LUT</ClosedNode>
          <ClosedNode>/Rough_Rough_sch_tb C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|Rough_TB.v/UUT - Rough_S_LUT/XLXI_6 - Main</ClosedNode>
+         <ClosedNode>/Rough_Rough_sch_tb C:|Users|Chaitanya Paikara|Documents|GitHub|Xilinx_FPGA|CRYPTO|Rough_TB.v/UUT - Rough_S_LUT</ClosedNode>
          <ClosedNode>/Rough_S_LUT C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|Rough_S_LUT.sch</ClosedNode>
+         <ClosedNode>/S_BOX_TB C:|Users|Chaitanya Paikara|Documents|CRYPTO|S_BOX_TB.v</ClosedNode>
          <ClosedNode>/S_BOX_TB C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|S_BOX_TB.v</ClosedNode>
+         <ClosedNode>/S_BOX_TB C:|Users|Chaitanya Paikara|Documents|GitHub|Xilinx_FPGA|CRYPTO|S_BOX_TB.v</ClosedNode>
+         <ClosedNode>/tb C:|Users|Chaitanya Paikara|Documents|CRYPTO|tb.v</ClosedNode>
          <ClosedNode>/tb C:|Users|Chaitanya Paikara|Documents|GitHub|BLDC_Motor_FPGA|CRYPTO|tb.v</ClosedNode>
+         <ClosedNode>/tb C:|Users|Chaitanya Paikara|Documents|GitHub|Xilinx_FPGA|CRYPTO|tb.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>UUT - Rough_S_LUT (C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_S_LUT.sch)</SelectedItem>
+         <SelectedItem>Rough_Rough_sch_tb (C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/CRYPTO/Rough_TB.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
-      <ScrollbarPosition orientation="horizontal" >377</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000030f000000020000000000000000000000000200000064ffffffff0000008100000003000000020000030f0000000100000003000000000000000100000003</ViewHeaderState>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002e8000000020000000000000000000000000200000064ffffffff000000810000000300000002000002e80000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>UUT - Rough_S_LUT (C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_S_LUT.sch)</CurrentItem>
+      <CurrentItem>Rough_Rough_sch_tb (C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/CRYPTO/Rough_TB.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -146,13 +158,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000014d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000014d0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000010c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000010c0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
@@ -163,7 +175,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000190000000010000000100000000000000000000000064ffffffff000000810000000000000001000001900000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000010c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000010c0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
@@ -172,13 +184,13 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000143000000010000000100000000000000000000000064ffffffff000000810000000000000001000001430000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
       <ClosedNodes>

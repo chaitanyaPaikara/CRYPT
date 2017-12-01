@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/CRYPTO/Rough_S_LUT.vhf";
+static const char *ng0 = "C:/Users/Chaitanya Paikara/Documents/CRYPTO/Rough_S_LUT.vhf";
 
 
 

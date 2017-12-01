@@ -18,11 +18,10 @@ module Rough_Rough_sch_tb();
 	wire [7:0] OUT2;
 	wire [7:0] OUT3;
 	wire [7:0] OUT4;
-   wire [7:0] K_1;
+	wire [7:0] K_1;
 	wire [7:0] K_2;
 	wire [7:0] K_3;
 	wire EN;
-	wire Sel;
 
 // Bidirs
 
@@ -42,17 +41,16 @@ module Rough_Rough_sch_tb();
 		.CLK(CLK),
 		.EN(EN),
 		.GLOBAL_EN(GLOBAL_EN),
-		.CipherText(CipherText),
-		.Sel(Sel)
+		.CipherText(CipherText)
    );
 // Initialize Inputs
    
    initial begin
-		CLK = 1;
+		CLK = 0;
 		GLOBAL_EN = 0;
 		CipherText=32'hAAAAAAAA;
 		
-		#80 GLOBAL_EN = 1;
+		#100 GLOBAL_EN = 1;
    end
 	always begin
 	#20 CLK=~CLK;

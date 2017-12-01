@@ -1,8 +1,0 @@
-[Inputs]
-CLK
-[Outputs]
-sel
-[BiDir]
-[ATTRIBUTES]
-VeriModel Pres_2
-
